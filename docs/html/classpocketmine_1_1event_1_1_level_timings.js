@@ -1,0 +1,28 @@
+var classpocketmine_1_1event_1_1_level_timings =
+[
+    [ "__construct", "classpocketmine_1_1event_1_1_level_timings.html#aa748c9d184c503de68e6b00693e8087a", null ],
+    [ "$doChunkGC", "classpocketmine_1_1event_1_1_level_timings.html#a7c54d622ce5f2b2a262596f7dead180e", null ],
+    [ "$doChunkMap", "classpocketmine_1_1event_1_1_level_timings.html#a13881443afeb398941940c7a52af7381", null ],
+    [ "$doChunkUnload", "classpocketmine_1_1event_1_1_level_timings.html#ae5c9fc681545dd910d318379c480966c", null ],
+    [ "$doPortalForcer", "classpocketmine_1_1event_1_1_level_timings.html#a6275defcc247152e502ce6d37b67dcd8", null ],
+    [ "$doSounds", "classpocketmine_1_1event_1_1_level_timings.html#aee5cf2ddbd7da9c311d73ab5420d1665", null ],
+    [ "$doTick", "classpocketmine_1_1event_1_1_level_timings.html#a78a9c2b02520e79556164c5ab03b7ebc", null ],
+    [ "$doTickPending", "classpocketmine_1_1event_1_1_level_timings.html#a6864f66bc07f0635d06eff1878d2747e", null ],
+    [ "$doTickTiles", "classpocketmine_1_1event_1_1_level_timings.html#a07fd7c175bde3f2a88a7cd13fffcabb5", null ],
+    [ "$doVillages", "classpocketmine_1_1event_1_1_level_timings.html#ab66c21bc0e3a52cd625fc46176d2cc8b", null ],
+    [ "$entityTick", "classpocketmine_1_1event_1_1_level_timings.html#ab05554229832840b2a7783093fc93860", null ],
+    [ "$mobSpawn", "classpocketmine_1_1event_1_1_level_timings.html#ac8b5897b9e079b5baf78e9a3924580c6", null ],
+    [ "$syncChunkLoadDataTimer", "classpocketmine_1_1event_1_1_level_timings.html#aac9e743905986be248de1cc1c31c2be8", null ],
+    [ "$syncChunkLoadEntitiesTimer", "classpocketmine_1_1event_1_1_level_timings.html#a1e802018141b501b99c0fe9ae0aed6bc", null ],
+    [ "$syncChunkLoadPostTimer", "classpocketmine_1_1event_1_1_level_timings.html#aff27b8dacafc77bada4e161ed7ad1e7d", null ],
+    [ "$syncChunkLoadStructuresTimer", "classpocketmine_1_1event_1_1_level_timings.html#a2b8ad1626d9a480fe89f8a7d1db20fbd", null ],
+    [ "$syncChunkLoadTileEntitiesTimer", "classpocketmine_1_1event_1_1_level_timings.html#a9043740344f48e68b203a3d9b1d31143", null ],
+    [ "$syncChunkLoadTileTicksTimer", "classpocketmine_1_1event_1_1_level_timings.html#a5b2f1ac427fd0146249e3566d80c4285", null ],
+    [ "$syncChunkLoadTimer", "classpocketmine_1_1event_1_1_level_timings.html#a936642e6cbbe9d49a73a919945bbb26e", null ],
+    [ "$syncChunkSendPrepareTimer", "classpocketmine_1_1event_1_1_level_timings.html#a1ba89c5d770df46623cae58285431441", null ],
+    [ "$syncChunkSendTimer", "classpocketmine_1_1event_1_1_level_timings.html#a7d57907c00f4d1fca3d0a7c05d96cd20", null ],
+    [ "$tickEntities", "classpocketmine_1_1event_1_1_level_timings.html#a1a1ad7b2f373da9413558e81aa2fa1ae", null ],
+    [ "$tileEntityPending", "classpocketmine_1_1event_1_1_level_timings.html#a89976a8e5a8c0ede773f671238e78f26", null ],
+    [ "$tileEntityTick", "classpocketmine_1_1event_1_1_level_timings.html#a4184ffe92c29d887ee7782a93e3a493a", null ],
+    [ "$tracker", "classpocketmine_1_1event_1_1_level_timings.html#a3ddd29b0242157f011348b60ac30ea82", null ]
+];

@@ -1,0 +1,27 @@
+var namespacepocketmine_1_1event_1_1player =
+[
+    [ "PlayerAchievementAwardedEvent", "classpocketmine_1_1event_1_1player_1_1_player_achievement_awarded_event.html", "classpocketmine_1_1event_1_1player_1_1_player_achievement_awarded_event" ],
+    [ "PlayerAnimationEvent", "classpocketmine_1_1event_1_1player_1_1_player_animation_event.html", "classpocketmine_1_1event_1_1player_1_1_player_animation_event" ],
+    [ "PlayerBedEnterEvent", "classpocketmine_1_1event_1_1player_1_1_player_bed_enter_event.html", "classpocketmine_1_1event_1_1player_1_1_player_bed_enter_event" ],
+    [ "PlayerBedLeaveEvent", "classpocketmine_1_1event_1_1player_1_1_player_bed_leave_event.html", "classpocketmine_1_1event_1_1player_1_1_player_bed_leave_event" ],
+    [ "PlayerBucketEmptyEvent", "classpocketmine_1_1event_1_1player_1_1_player_bucket_empty_event.html", "classpocketmine_1_1event_1_1player_1_1_player_bucket_empty_event" ],
+    [ "PlayerBucketEvent", "classpocketmine_1_1event_1_1player_1_1_player_bucket_event.html", "classpocketmine_1_1event_1_1player_1_1_player_bucket_event" ],
+    [ "PlayerBucketFillEvent", "classpocketmine_1_1event_1_1player_1_1_player_bucket_fill_event.html", "classpocketmine_1_1event_1_1player_1_1_player_bucket_fill_event" ],
+    [ "PlayerChatEvent", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html", "classpocketmine_1_1event_1_1player_1_1_player_chat_event" ],
+    [ "PlayerCommandPreprocessEvent", "classpocketmine_1_1event_1_1player_1_1_player_command_preprocess_event.html", "classpocketmine_1_1event_1_1player_1_1_player_command_preprocess_event" ],
+    [ "PlayerCreationEvent", "classpocketmine_1_1event_1_1player_1_1_player_creation_event.html", "classpocketmine_1_1event_1_1player_1_1_player_creation_event" ],
+    [ "PlayerDeathEvent", "classpocketmine_1_1event_1_1player_1_1_player_death_event.html", "classpocketmine_1_1event_1_1player_1_1_player_death_event" ],
+    [ "PlayerDropItemEvent", "classpocketmine_1_1event_1_1player_1_1_player_drop_item_event.html", "classpocketmine_1_1event_1_1player_1_1_player_drop_item_event" ],
+    [ "PlayerEvent", "classpocketmine_1_1event_1_1player_1_1_player_event.html", "classpocketmine_1_1event_1_1player_1_1_player_event" ],
+    [ "PlayerGameModeChangeEvent", "classpocketmine_1_1event_1_1player_1_1_player_game_mode_change_event.html", "classpocketmine_1_1event_1_1player_1_1_player_game_mode_change_event" ],
+    [ "PlayerInteractEvent", "classpocketmine_1_1event_1_1player_1_1_player_interact_event.html", "classpocketmine_1_1event_1_1player_1_1_player_interact_event" ],
+    [ "PlayerItemConsumeEvent", "classpocketmine_1_1event_1_1player_1_1_player_item_consume_event.html", "classpocketmine_1_1event_1_1player_1_1_player_item_consume_event" ],
+    [ "PlayerItemHeldEvent", "classpocketmine_1_1event_1_1player_1_1_player_item_held_event.html", "classpocketmine_1_1event_1_1player_1_1_player_item_held_event" ],
+    [ "PlayerJoinEvent", "classpocketmine_1_1event_1_1player_1_1_player_join_event.html", "classpocketmine_1_1event_1_1player_1_1_player_join_event" ],
+    [ "PlayerKickEvent", "classpocketmine_1_1event_1_1player_1_1_player_kick_event.html", "classpocketmine_1_1event_1_1player_1_1_player_kick_event" ],
+    [ "PlayerLoginEvent", "classpocketmine_1_1event_1_1player_1_1_player_login_event.html", "classpocketmine_1_1event_1_1player_1_1_player_login_event" ],
+    [ "PlayerMoveEvent", "classpocketmine_1_1event_1_1player_1_1_player_move_event.html", "classpocketmine_1_1event_1_1player_1_1_player_move_event" ],
+    [ "PlayerPreLoginEvent", "classpocketmine_1_1event_1_1player_1_1_player_pre_login_event.html", "classpocketmine_1_1event_1_1player_1_1_player_pre_login_event" ],
+    [ "PlayerQuitEvent", "classpocketmine_1_1event_1_1player_1_1_player_quit_event.html", "classpocketmine_1_1event_1_1player_1_1_player_quit_event" ],
+    [ "PlayerRespawnEvent", "classpocketmine_1_1event_1_1player_1_1_player_respawn_event.html", "classpocketmine_1_1event_1_1player_1_1_player_respawn_event" ]
+];

@@ -1,0 +1,25 @@
+var classpocketmine_1_1math_1_1_vector2 =
+[
+    [ "__construct", "classpocketmine_1_1math_1_1_vector2.html#a2173e8d6199ce633e154eb73796c1ea9", null ],
+    [ "__toString", "classpocketmine_1_1math_1_1_vector2.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
+    [ "abs", "classpocketmine_1_1math_1_1_vector2.html#af3271c1a26c6f5de343ba9197e8f7a2e", null ],
+    [ "add", "classpocketmine_1_1math_1_1_vector2.html#a3d87b64753842ebf41e3f0303f5471a9", null ],
+    [ "ceil", "classpocketmine_1_1math_1_1_vector2.html#a18294a6073ad73b698bc70f0615e1593", null ],
+    [ "distance", "classpocketmine_1_1math_1_1_vector2.html#ac834248fb3cc9467a107f824fbc29b82", null ],
+    [ "distanceSquared", "classpocketmine_1_1math_1_1_vector2.html#a0d1703df505580766fbca6094e5d505d", null ],
+    [ "divide", "classpocketmine_1_1math_1_1_vector2.html#a4980bd8dfaf75f9203a6f2d77f2a9a5e", null ],
+    [ "dot", "classpocketmine_1_1math_1_1_vector2.html#a3bcee40957fdeb455e8796f6aa866021", null ],
+    [ "floor", "classpocketmine_1_1math_1_1_vector2.html#ab026e1561d2912ebcd20763a67a046d6", null ],
+    [ "getFloorX", "classpocketmine_1_1math_1_1_vector2.html#a9d2d69ca585b4da355a0fa5e21d411f7", null ],
+    [ "getFloorY", "classpocketmine_1_1math_1_1_vector2.html#aa63b0f259f31f7a5996ac68d542ff101", null ],
+    [ "getX", "classpocketmine_1_1math_1_1_vector2.html#a403d7c3dc9b308567cf859a67b1cf1e5", null ],
+    [ "getY", "classpocketmine_1_1math_1_1_vector2.html#ac878fc1b93b7d5c1bd6d3142dd197f19", null ],
+    [ "length", "classpocketmine_1_1math_1_1_vector2.html#a5facb816a7ce2173a30db9b0bc8ecf75", null ],
+    [ "lengthSquared", "classpocketmine_1_1math_1_1_vector2.html#aeceb980e2e881724295576cd7391f902", null ],
+    [ "multiply", "classpocketmine_1_1math_1_1_vector2.html#ab61539ed562e74d6bed7b68d318f92e7", null ],
+    [ "normalize", "classpocketmine_1_1math_1_1_vector2.html#a8189efe6c41ceba4084f6b074d4a47c0", null ],
+    [ "round", "classpocketmine_1_1math_1_1_vector2.html#a6819ed4b28ef34dee1edeedda65bc408", null ],
+    [ "subtract", "classpocketmine_1_1math_1_1_vector2.html#a8e0f104899a93f971645390d571aa12a", null ],
+    [ "$x", "classpocketmine_1_1math_1_1_vector2.html#af3a16c5f0dd7a74cf9acf6a49fff73a7", null ],
+    [ "$y", "classpocketmine_1_1math_1_1_vector2.html#a77b973d137fb33212e018b042df6e3e7", null ]
+];
