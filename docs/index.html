@@ -59,8 +59,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
                onmouseout="return searchBox.OnSearchSelectHide()"
                alt=""/>
           <input type="text" id="MSearchField" value="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onfocus="searchBox.OnSearchFieldFocus(true)"
+               onblur="searchBox.OnSearchFieldFocus(false)"
                onkeyup="searchBox.OnSearchFieldChange(event)"/>
           </span><span class="right">
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
@@ -76,7 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <div id="nav-sync" class="sync"></div>
     </div>
   </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
+  <div id="splitbar" style="-moz-user-select:none;"
        class="ui-resizable-handle">
   </div>
 </div>
@@ -93,18 +93,34 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
-<iframe src="javascript:void(0)" frameborder="0" 
+<iframe src="javascript:void(0)" frameborder="0"
         name="MSearchResults" id="MSearchResults">
 </iframe>
 </div>
 
 <div class="header">
   <div class="headertitle">
-<div class="title">PocketMine Docs Documentation</div>  </div>
-</div><!--header-->
+<div class="title">PocketMine Documentation</div>  </div>
 <div class="contents">
-</div><!-- contents -->
-</div><!-- doc-content -->
+<div class="textblock"><p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public License along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+<p><b>PocketMine-MP is a free, open-source software that creates Minecraft: Pocket Edition servers and allows extending its functionalities</b></p>
+<h3><a href="http://www.pocketmine.net/">Homepage</a></h3>
+<h2>Third-party Libraries/Protocols Used</h2>
+<ul>
+<li>__<a href="http://php.net/manual/en/book.sockets.php">PHP Sockets</a>__</li>
+<li>__<a href="http://php.net/manual/en/book.sqlite3.php">PHP SQLite3</a>__</li>
+<li>__<a href="http://php.net/manual/en/book.bc.php">PHP BCMath</a>__</li>
+<li>__<a href="http://pthreads.org/">PHP pthreads</a>__ by _<a href="https://github.com/krakjoe">krakjoe</a>_: Threading for PHP - Share Nothing, Do Everything.</li>
+<li>__<a href="https://code.google.com/p/php-yaml/">PHP YAML</a>__ by <em>Bryan Davis</em>: The Yaml PHP Extension provides a wrapper to the LibYAML library.</li>
+<li>__<a href="http://pyyaml.org/wiki/LibYAML">LibYAML</a>__ by <em>Kirill Simonov</em>: A YAML 1.1 parser and emitter written in C.</li>
+<li>__<a href="http://curl.haxx.se/">cURL</a>__: cURL is a command line tool for transferring data with URL syntax</li>
+<li>__<a href="http://www.zlib.net/">Zlib</a>__: A Massively Spiffy Yet Delicately Unobtrusive Compression Library</li>
+<li>__<a href="https://developer.valvesoftware.com/wiki/Source_RCON_Protocol">Source RCON Protocol</a>__</li>
+<li>__<a href="http://wiki.unrealadmin.org/UT3_query_protocol">UT3 Query Protocol</a>__ </li>
+</ul>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
