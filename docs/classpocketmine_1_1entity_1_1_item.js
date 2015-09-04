@@ -1,0 +1,27 @@
+var classpocketmine_1_1entity_1_1_item =
+[
+    [ "attack", "classpocketmine_1_1entity_1_1_item.html#a3c820cdc68a0e9f1e7879eccfa4c68c8", null ],
+    [ "canCollideWith", "classpocketmine_1_1entity_1_1_item.html#ad43c13dc98e96eb4fe536061403833ff", null ],
+    [ "getItem", "classpocketmine_1_1entity_1_1_item.html#a094b2839a8ef421bca847866dc22ab33", null ],
+    [ "getOwner", "classpocketmine_1_1entity_1_1_item.html#adf7c472f5ffc30ad0aa95c63cd2b8f6c", null ],
+    [ "getPickupDelay", "classpocketmine_1_1entity_1_1_item.html#a64eb9f025d476e76e47db70ac4847f60", null ],
+    [ "getThrower", "classpocketmine_1_1entity_1_1_item.html#a8b2ff60c58365c1c00633cc880ef952f", null ],
+    [ "initEntity", "classpocketmine_1_1entity_1_1_item.html#a870518da265e61e119b143cd789c9fa6", null ],
+    [ "onUpdate", "classpocketmine_1_1entity_1_1_item.html#afea5e7528fb45e4666de311b9c6db5ff", null ],
+    [ "saveNBT", "classpocketmine_1_1entity_1_1_item.html#a25f539869d43800335510089b166558a", null ],
+    [ "setOwner", "classpocketmine_1_1entity_1_1_item.html#a82ce128013db19b0bfd2807b833a9e8b", null ],
+    [ "setPickupDelay", "classpocketmine_1_1entity_1_1_item.html#a258b2345594963007265aae7d79f5edc", null ],
+    [ "setThrower", "classpocketmine_1_1entity_1_1_item.html#a937c455791c9436e91f7dd8e1b8013b0", null ],
+    [ "spawnTo", "classpocketmine_1_1entity_1_1_item.html#ae3cc653b7f1650e74485155a07835e10", null ],
+    [ "$canCollide", "classpocketmine_1_1entity_1_1_item.html#a2993d0f7d6b377c859920772c5051f43", null ],
+    [ "$drag", "classpocketmine_1_1entity_1_1_item.html#a57835eae6549ea8f7984e187187983e2", null ],
+    [ "$gravity", "classpocketmine_1_1entity_1_1_item.html#a05fcdb2ab8fcd2ce4e58d59ec6b077d9", null ],
+    [ "$height", "classpocketmine_1_1entity_1_1_item.html#a2c265bba1724371bb03e6901297c30b2", null ],
+    [ "$item", "classpocketmine_1_1entity_1_1_item.html#aa61b415cee119a7511e05c405ecd0b32", null ],
+    [ "$length", "classpocketmine_1_1entity_1_1_item.html#adf14d8e29912c1855022dfa252aa4087", null ],
+    [ "$owner", "classpocketmine_1_1entity_1_1_item.html#a9aabf46bdb166877480b2094d7ca01a7", null ],
+    [ "$pickupDelay", "classpocketmine_1_1entity_1_1_item.html#a257733b4e9cd1707cc8204905df44bcf", null ],
+    [ "$thrower", "classpocketmine_1_1entity_1_1_item.html#a4e81b13e6960ab39e8d809555e37f1f6", null ],
+    [ "$width", "classpocketmine_1_1entity_1_1_item.html#a5795120b4b324bc4ca83f1e6fdce7d57", null ],
+    [ "NETWORK_ID", "classpocketmine_1_1entity_1_1_item.html#a63546c9fa8c0c413cf997be4120332d9", null ]
+];
