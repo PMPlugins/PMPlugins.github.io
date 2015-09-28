@@ -10,6 +10,7 @@ var classpocketmine_1_1item_1_1_tool =
     [ "isShovel", "classpocketmine_1_1item_1_1_tool.html#a57790b4bea350dbf5c67967642845cdc", null ],
     [ "isSword", "classpocketmine_1_1item_1_1_tool.html#a8b007848f4efa8262346e61f2de8fdd2", null ],
     [ "isTool", "classpocketmine_1_1item_1_1_tool.html#a60a4d2d3753c0360bc2cff22cb612cf2", null ],
+    [ "isUnbreakable", "classpocketmine_1_1item_1_1_tool.html#a88a4e5b66747a24618b435d86356665f", null ],
     [ "useOn", "classpocketmine_1_1item_1_1_tool.html#ae76ecde663346d5994aa9ec28a8a1213", null ],
     [ "TIER_DIAMOND", "classpocketmine_1_1item_1_1_tool.html#ad75f98d328c0a6060b423e7e744f5a98", null ],
     [ "TIER_GOLD", "classpocketmine_1_1item_1_1_tool.html#a51a4e5fd033645b595238570b7e002ef", null ],

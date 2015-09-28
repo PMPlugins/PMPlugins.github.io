@@ -5,6 +5,6 @@ var classpocketmine_1_1block_1_1_stonecutter =
     [ "getDrops", "classpocketmine_1_1block_1_1_stonecutter.html#a18bbac3075310b14bec5573c1150bbab", null ],
     [ "getName", "classpocketmine_1_1block_1_1_stonecutter.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getToolType", "classpocketmine_1_1block_1_1_stonecutter.html#a98cefe47e5822a30038bfad7cb1bb9e9", null ],
-    [ "onActivate", "classpocketmine_1_1block_1_1_stonecutter.html#a82efaf3fedbc7606e658198b1e48795a", null ],
+    [ "onActivate", "classpocketmine_1_1block_1_1_stonecutter.html#a7074282ed6e386bec8669a0393846a85", null ],
     [ "$id", "classpocketmine_1_1block_1_1_stonecutter.html#ae97941710d863131c700f069b109991e", null ]
 ];

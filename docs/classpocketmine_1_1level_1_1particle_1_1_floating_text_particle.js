@@ -3,7 +3,7 @@ var classpocketmine_1_1level_1_1particle_1_1_floating_text_particle =
     [ "__construct", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#a03b06dfc950ef8f79f74f3af1db72e58", null ],
     [ "encode", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
     [ "isInvisible", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#afad0db2c2121a71a6a0b752e1f7f9db5", null ],
-    [ "setInvisible", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#a6c19929d095b4ee1b78ef7963752e847", null ],
+    [ "setInvisible", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#a63900a388b74ecba3a912a2ff544825f", null ],
     [ "setText", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#aed98453b92e9e7e961179dfff24c4a3a", null ],
     [ "setTitle", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#a884ba9bb0d54bde7839e798db7964476", null ],
     [ "$entityId", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html#add1acdbdc536e9d24e8170582068a89d", null ],

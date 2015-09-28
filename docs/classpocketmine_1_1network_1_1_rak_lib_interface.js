@@ -11,7 +11,7 @@ var classpocketmine_1_1network_1_1_rak_lib_interface =
     [ "notifyACK", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a3af997ac3fc34bc49b4655c3d86f3e69", null ],
     [ "openSession", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a5f4b94cd59c77255cd5db9b4a2ecab14", null ],
     [ "process", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a7d4ad4038b036a67eece619e6f88c89e", null ],
-    [ "putPacket", "classpocketmine_1_1network_1_1_rak_lib_interface.html#afb0877ed6ec409949e9297a0f7579736", null ],
+    [ "putPacket", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a00ccf7d6308e0352044c8ca9a3b93e90", null ],
     [ "sendRawPacket", "classpocketmine_1_1network_1_1_rak_lib_interface.html#ae12ccaf4d5b36adb53666b6d466039e1", null ],
     [ "setName", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a2fe666694997d047711d7653eca2f132", null ],
     [ "setNetwork", "classpocketmine_1_1network_1_1_rak_lib_interface.html#a312d6b1eb2a4ffa72072c9eebf5dd38f", null ],

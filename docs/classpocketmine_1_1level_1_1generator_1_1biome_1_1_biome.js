@@ -21,6 +21,7 @@ var classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome =
     [ "BIRCH_FOREST", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a9dedce8c3563000dcec40177b4c686f8", null ],
     [ "DESERT", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a4ce1fcc5b2211a4a9867c53bbd345322", null ],
     [ "FOREST", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#ac6176b316b47eed45d439079ce3d5bac", null ],
+    [ "HELL", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a100ef7d0d55346d730bd1640d5666a48", null ],
     [ "ICE_PLAINS", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a03de823614052deb8e3660f0ca8c49ad", null ],
     [ "MAX_BIOMES", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a7efd25681e4a27c4089f93b9019222cc", null ],
     [ "MOUNTAINS", "classpocketmine_1_1level_1_1generator_1_1biome_1_1_biome.html#a556e7c48fb621015e33a5d85d4f4be98", null ],

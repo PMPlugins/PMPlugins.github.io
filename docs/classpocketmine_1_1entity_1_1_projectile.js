@@ -1,6 +1,6 @@
 var classpocketmine_1_1entity_1_1_projectile =
 [
-    [ "__construct", "classpocketmine_1_1entity_1_1_projectile.html#a2606ef979f8408c4734158cc02f917a6", null ],
+    [ "__construct", "classpocketmine_1_1entity_1_1_projectile.html#a3d5a1f386fa35917d4c06caca73da863", null ],
     [ "attack", "classpocketmine_1_1entity_1_1_projectile.html#a3c820cdc68a0e9f1e7879eccfa4c68c8", null ],
     [ "canCollideWith", "classpocketmine_1_1entity_1_1_projectile.html#ad43c13dc98e96eb4fe536061403833ff", null ],
     [ "initEntity", "classpocketmine_1_1entity_1_1_projectile.html#a870518da265e61e119b143cd789c9fa6", null ],

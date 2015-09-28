@@ -1,6 +1,6 @@
 var classpocketmine_1_1command_1_1_command =
 [
-    [ "__construct", "classpocketmine_1_1command_1_1_command.html#a71faf08b13090ed0b6551c81de30011e", null ],
+    [ "__construct", "classpocketmine_1_1command_1_1_command.html#a20a16b68d448a632cf52af1bcef3e967", null ],
     [ "__toString", "classpocketmine_1_1command_1_1_command.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
     [ "execute", "classpocketmine_1_1command_1_1_command.html#a5f26288ddc55fd228084f0b347ad3713", null ],
     [ "getAliases", "classpocketmine_1_1command_1_1_command.html#a1e9e143d493aedb855d3c5edadb17bb2", null ],

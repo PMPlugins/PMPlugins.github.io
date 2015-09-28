@@ -1,6 +1,6 @@
 var classpocketmine_1_1entity_1_1_arrow =
 [
-    [ "__construct", "classpocketmine_1_1entity_1_1_arrow.html#a3ceb3687a1cbaf9e9cb61f538874ce3a", null ],
+    [ "__construct", "classpocketmine_1_1entity_1_1_arrow.html#a1edefa4bc28ae071353c04106efaeb69", null ],
     [ "onUpdate", "classpocketmine_1_1entity_1_1_arrow.html#afea5e7528fb45e4666de311b9c6db5ff", null ],
     [ "spawnTo", "classpocketmine_1_1entity_1_1_arrow.html#ae3cc653b7f1650e74485155a07835e10", null ],
     [ "$damage", "classpocketmine_1_1entity_1_1_arrow.html#ac648d742ba634dafba1203a4e06290e7", null ],

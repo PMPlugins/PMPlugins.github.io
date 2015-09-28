@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>PocketMine Docs: DataPacket Class Reference</title>
+<title>PocketMine_Docs: DataPacket Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,10 +30,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="9ef95b0c49d34a3aa2fe6669b6101d74_normal.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PocketMine Docs
+   <div id="projectname">PocketMine_Docs
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
+   <div id="projectbrief">PM</div>
   </td>
  </tr>
  </tbody>
@@ -50,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -109,8 +110,7 @@ $(document).ready(function(){initNavTree('classpocketmine_1_1network_1_1protocol
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">DataPacket Class Reference</div>  </div>
 </div><!--header-->
@@ -121,852 +121,526 @@ Inheritance diagram for DataPacket:</div>
  <div class="center">
   <img src="classpocketmine_1_1network_1_1protocol_1_1_data_packet.png" usemap="#DataPacket_map" alt=""/>
   <map id="DataPacket_map" name="DataPacket_map">
-<area href="classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html" alt="AddEntityPacket" shape="rect" coords="189,112,368,136"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html" alt="AddItemEntityPacket" shape="rect" coords="189,168,368,192"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html" alt="AddPaintingPacket" shape="rect" coords="189,224,368,248"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html" alt="AddPlayerPacket" shape="rect" coords="189,280,368,304"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_adventure_settings_packet.html" alt="AdventureSettingsPacket" shape="rect" coords="189,336,368,360"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html" alt="AnimatePacket" shape="rect" coords="189,392,368,416"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html" alt="BatchPacket" shape="rect" coords="189,448,368,472"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_container_close_packet.html" alt="ContainerClosePacket" shape="rect" coords="189,504,368,528"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_container_open_packet.html" alt="ContainerOpenPacket" shape="rect" coords="189,560,368,584"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html" alt="ContainerSetContentPacket" shape="rect" coords="189,616,368,640"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_data_packet.html" alt="ContainerSetDataPacket" shape="rect" coords="189,672,368,696"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_slot_packet.html" alt="ContainerSetSlotPacket" shape="rect" coords="189,728,368,752"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_disconnect_packet.html" alt="DisconnectPacket" shape="rect" coords="189,784,368,808"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_drop_item_packet.html" alt="DropItemPacket" shape="rect" coords="189,840,368,864"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html" alt="EntityEventPacket" shape="rect" coords="189,896,368,920"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_explode_packet.html" alt="ExplodePacket" shape="rect" coords="189,952,368,976"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_full_chunk_data_packet.html" alt="FullChunkDataPacket" shape="rect" coords="189,1008,368,1032"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_hurt_armor_packet.html" alt="HurtArmorPacket" shape="rect" coords="189,1064,368,1088"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html" alt="InteractPacket" shape="rect" coords="189,1120,368,1144"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_level_event_packet.html" alt="LevelEventPacket" shape="rect" coords="189,1176,368,1200"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_login_packet.html" alt="LoginPacket" shape="rect" coords="189,1232,368,1256"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html" alt="MobEffectPacket" shape="rect" coords="189,1288,368,1312"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html" alt="MoveEntityPacket" shape="rect" coords="189,1344,368,1368"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html" alt="MovePlayerPacket" shape="rect" coords="189,1400,368,1424"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html" alt="PlayerActionPacket" shape="rect" coords="189,1456,368,1480"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_player_armor_equipment_packet.html" alt="PlayerArmorEquipmentPacket" shape="rect" coords="189,1512,368,1536"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_player_equipment_packet.html" alt="PlayerEquipmentPacket" shape="rect" coords="189,1568,368,1592"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_play_status_packet.html" alt="PlayStatusPacket" shape="rect" coords="189,1624,368,1648"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html" alt="RemoveBlockPacket" shape="rect" coords="189,1680,368,1704"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html" alt="RemoveEntityPacket" shape="rect" coords="189,1736,368,1760"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html" alt="RemovePlayerPacket" shape="rect" coords="189,1792,368,1816"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_respawn_packet.html" alt="RespawnPacket" shape="rect" coords="189,1848,368,1872"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html" alt="SetDifficultyPacket" shape="rect" coords="189,1904,368,1928"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html" alt="SetEntityDataPacket" shape="rect" coords="189,1960,368,1984"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html" alt="SetEntityLinkPacket" shape="rect" coords="189,2016,368,2040"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html" alt="SetEntityMotionPacket" shape="rect" coords="189,2072,368,2096"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html" alt="SetHealthPacket" shape="rect" coords="189,2128,368,2152"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_spawn_position_packet.html" alt="SetSpawnPositionPacket" shape="rect" coords="189,2184,368,2208"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_set_time_packet.html" alt="SetTimePacket" shape="rect" coords="189,2240,368,2264"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html" alt="StartGamePacket" shape="rect" coords="189,2296,368,2320"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html" alt="TakeItemEntityPacket" shape="rect" coords="189,2352,368,2376"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_text_packet.html" alt="TextPacket" shape="rect" coords="189,2408,368,2432"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html" alt="TileEntityDataPacket" shape="rect" coords="189,2464,368,2488"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_event_packet.html" alt="TileEventPacket" shape="rect" coords="189,2520,368,2544"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_update_block_packet.html" alt="UpdateBlockPacket" shape="rect" coords="189,2576,368,2600"/>
-<area href="classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html" alt="UseItemPacket" shape="rect" coords="189,2632,368,2656"/>
+<area href="classpocketmine_1_1utils_1_1_binary_stream.html" alt="BinaryStream" shape="rect" coords="177,56,344,80"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html" alt="AddEntityPacket" shape="rect" coords="354,168,521,192"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html" alt="AddEntityPacket" shape="rect" coords="354,224,521,248"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html" alt="AddEntityPacket" shape="rect" coords="354,280,521,304"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html" alt="AddItemEntityPacket" shape="rect" coords="354,336,521,360"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html" alt="AddItemEntityPacket" shape="rect" coords="354,392,521,416"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html" alt="AddItemEntityPacket" shape="rect" coords="354,448,521,472"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html" alt="AddPaintingPacket" shape="rect" coords="354,504,521,528"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html" alt="AddPaintingPacket" shape="rect" coords="354,560,521,584"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html" alt="AddPaintingPacket" shape="rect" coords="354,616,521,640"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html" alt="AddPlayerPacket" shape="rect" coords="354,672,521,696"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html" alt="AddPlayerPacket" shape="rect" coords="354,728,521,752"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html" alt="AddPlayerPacket" shape="rect" coords="354,784,521,808"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_adventure_settings_packet.html" alt="AdventureSettingsPacket" shape="rect" coords="354,840,521,864"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html" alt="AnimatePacket" shape="rect" coords="354,896,521,920"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html" alt="AnimatePacket" shape="rect" coords="354,952,521,976"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html" alt="AnimatePacket" shape="rect" coords="354,1008,521,1032"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html" alt="BatchPacket" shape="rect" coords="354,1064,521,1088"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html" alt="BatchPacket" shape="rect" coords="354,1120,521,1144"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html" alt="BatchPacket" shape="rect" coords="354,1176,521,1200"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_close_packet.html" alt="ContainerClosePacket" shape="rect" coords="354,1232,521,1256"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_open_packet.html" alt="ContainerOpenPacket" shape="rect" coords="354,1288,521,1312"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html" alt="ContainerSetContentPacket" shape="rect" coords="354,1344,521,1368"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html" alt="ContainerSetContentPacket" shape="rect" coords="354,1400,521,1424"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html" alt="ContainerSetContentPacket" shape="rect" coords="354,1456,521,1480"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_data_packet.html" alt="ContainerSetDataPacket" shape="rect" coords="354,1512,521,1536"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_container_set_slot_packet.html" alt="ContainerSetSlotPacket" shape="rect" coords="354,1568,521,1592"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_crafting_data_packet.html" alt="CraftingDataPacket" shape="rect" coords="354,1624,521,1648"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html" alt="CraftingEventPacket" shape="rect" coords="354,1680,521,1704"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html" alt="CraftingEventPacket" shape="rect" coords="354,1736,521,1760"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html" alt="CraftingEventPacket" shape="rect" coords="354,1792,521,1816"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_disconnect_packet.html" alt="DisconnectPacket" shape="rect" coords="354,1848,521,1872"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_drop_item_packet.html" alt="DropItemPacket" shape="rect" coords="354,1904,521,1928"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html" alt="EntityEventPacket" shape="rect" coords="354,1960,521,1984"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html" alt="EntityEventPacket" shape="rect" coords="354,2016,521,2040"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html" alt="EntityEventPacket" shape="rect" coords="354,2072,521,2096"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_explode_packet.html" alt="ExplodePacket" shape="rect" coords="354,2128,521,2152"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_full_chunk_data_packet.html" alt="FullChunkDataPacket" shape="rect" coords="354,2184,521,2208"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_hurt_armor_packet.html" alt="HurtArmorPacket" shape="rect" coords="354,2240,521,2264"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html" alt="InteractPacket" shape="rect" coords="354,2296,521,2320"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html" alt="InteractPacket" shape="rect" coords="354,2352,521,2376"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html" alt="InteractPacket" shape="rect" coords="354,2408,521,2432"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_level_event_packet.html" alt="LevelEventPacket" shape="rect" coords="354,2464,521,2488"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_login_packet.html" alt="LoginPacket" shape="rect" coords="354,2520,521,2544"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_login_packet.html" alt="LoginPacket" shape="rect" coords="354,2576,521,2600"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_login_packet.html" alt="LoginPacket" shape="rect" coords="354,2632,521,2656"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html" alt="MobArmorEquipmentPacket" shape="rect" coords="354,2688,521,2712"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html" alt="MobArmorEquipmentPacket" shape="rect" coords="354,2744,521,2768"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html" alt="MobArmorEquipmentPacket" shape="rect" coords="354,2800,521,2824"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html" alt="MobEffectPacket" shape="rect" coords="354,2856,521,2880"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html" alt="MobEffectPacket" shape="rect" coords="354,2912,521,2936"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html" alt="MobEffectPacket" shape="rect" coords="354,2968,521,2992"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html" alt="MobEquipmentPacket" shape="rect" coords="354,3024,521,3048"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html" alt="MobEquipmentPacket" shape="rect" coords="354,3080,521,3104"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html" alt="MobEquipmentPacket" shape="rect" coords="354,3136,521,3160"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html" alt="MoveEntityPacket" shape="rect" coords="354,3192,521,3216"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html" alt="MoveEntityPacket" shape="rect" coords="354,3248,521,3272"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html" alt="MoveEntityPacket" shape="rect" coords="354,3304,521,3328"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html" alt="MovePlayerPacket" shape="rect" coords="354,3360,521,3384"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html" alt="MovePlayerPacket" shape="rect" coords="354,3416,521,3440"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html" alt="MovePlayerPacket" shape="rect" coords="354,3472,521,3496"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html" alt="PlayerActionPacket" shape="rect" coords="354,3528,521,3552"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html" alt="PlayerActionPacket" shape="rect" coords="354,3584,521,3608"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html" alt="PlayerActionPacket" shape="rect" coords="354,3640,521,3664"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html" alt="PlayerListPacket" shape="rect" coords="354,3696,521,3720"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html" alt="PlayerListPacket" shape="rect" coords="354,3752,521,3776"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html" alt="PlayerListPacket" shape="rect" coords="354,3808,521,3832"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_play_status_packet.html" alt="PlayStatusPacket" shape="rect" coords="354,3864,521,3888"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html" alt="RemoveBlockPacket" shape="rect" coords="354,3920,521,3944"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html" alt="RemoveBlockPacket" shape="rect" coords="354,3976,521,4000"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html" alt="RemoveBlockPacket" shape="rect" coords="354,4032,521,4056"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html" alt="RemoveEntityPacket" shape="rect" coords="354,4088,521,4112"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html" alt="RemoveEntityPacket" shape="rect" coords="354,4144,521,4168"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html" alt="RemoveEntityPacket" shape="rect" coords="354,4200,521,4224"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html" alt="RemovePlayerPacket" shape="rect" coords="354,4256,521,4280"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html" alt="RemovePlayerPacket" shape="rect" coords="354,4312,521,4336"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html" alt="RemovePlayerPacket" shape="rect" coords="354,4368,521,4392"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_respawn_packet.html" alt="RespawnPacket" shape="rect" coords="354,4424,521,4448"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html" alt="SetDifficultyPacket" shape="rect" coords="354,4480,521,4504"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html" alt="SetDifficultyPacket" shape="rect" coords="354,4536,521,4560"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html" alt="SetDifficultyPacket" shape="rect" coords="354,4592,521,4616"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html" alt="SetEntityDataPacket" shape="rect" coords="354,4648,521,4672"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html" alt="SetEntityDataPacket" shape="rect" coords="354,4704,521,4728"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html" alt="SetEntityDataPacket" shape="rect" coords="354,4760,521,4784"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html" alt="SetEntityLinkPacket" shape="rect" coords="354,4816,521,4840"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html" alt="SetEntityLinkPacket" shape="rect" coords="354,4872,521,4896"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html" alt="SetEntityLinkPacket" shape="rect" coords="354,4928,521,4952"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html" alt="SetEntityMotionPacket" shape="rect" coords="354,4984,521,5008"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html" alt="SetEntityMotionPacket" shape="rect" coords="354,5040,521,5064"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html" alt="SetEntityMotionPacket" shape="rect" coords="354,5096,521,5120"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html" alt="SetHealthPacket" shape="rect" coords="354,5152,521,5176"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html" alt="SetHealthPacket" shape="rect" coords="354,5208,521,5232"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html" alt="SetHealthPacket" shape="rect" coords="354,5264,521,5288"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_spawn_position_packet.html" alt="SetSpawnPositionPacket" shape="rect" coords="354,5320,521,5344"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_set_time_packet.html" alt="SetTimePacket" shape="rect" coords="354,5376,521,5400"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html" alt="StartGamePacket" shape="rect" coords="354,5432,521,5456"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html" alt="StartGamePacket" shape="rect" coords="354,5488,521,5512"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html" alt="StartGamePacket" shape="rect" coords="354,5544,521,5568"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html" alt="TakeItemEntityPacket" shape="rect" coords="354,5600,521,5624"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html" alt="TakeItemEntityPacket" shape="rect" coords="354,5656,521,5680"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html" alt="TakeItemEntityPacket" shape="rect" coords="354,5712,521,5736"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_text_packet.html" alt="TextPacket" shape="rect" coords="354,5768,521,5792"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html" alt="TileEntityDataPacket" shape="rect" coords="354,5824,521,5848"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html" alt="TileEntityDataPacket" shape="rect" coords="354,5880,521,5904"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html" alt="TileEntityDataPacket" shape="rect" coords="354,5936,521,5960"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_tile_event_packet.html" alt="TileEventPacket" shape="rect" coords="354,5992,521,6016"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html" alt="UpdateAttributesPacket" shape="rect" coords="354,6048,521,6072"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html" alt="UpdateAttributesPacket" shape="rect" coords="354,6104,521,6128"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html" alt="UpdateAttributesPacket" shape="rect" coords="354,6160,521,6184"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_update_block_packet.html" alt="UpdateBlockPacket" shape="rect" coords="354,6216,521,6240"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html" alt="UseItemPacket" shape="rect" coords="354,6272,521,6296"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html" alt="UseItemPacket" shape="rect" coords="354,6328,521,6352"/>
+<area href="classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html" alt="UseItemPacket" shape="rect" coords="354,6384,521,6408"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3bebfa5c2ae5b081beb253d1dd1262d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a3bebfa5c2ae5b081beb253d1dd1262d3">pid</a> ()</td></tr>
+<tr class="memitem:a3bebfa5c2ae5b081beb253d1dd1262d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bebfa5c2ae5b081beb253d1dd1262d3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>pid</b> ()</td></tr>
 <tr class="separator:a3bebfa5c2ae5b081beb253d1dd1262d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9eb7dbc2495dbe58fd71b71b26ef8a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6">encode</a> ()</td></tr>
+<tr class="memitem:ac9eb7dbc2495dbe58fd71b71b26ef8a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9eb7dbc2495dbe58fd71b71b26ef8a6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>encode</b> ()</td></tr>
 <tr class="separator:ac9eb7dbc2495dbe58fd71b71b26ef8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a65d563b072e1f019552eaa399e98f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a9a65d563b072e1f019552eaa399e98f3">decode</a> ()</td></tr>
+<tr class="memitem:a9a65d563b072e1f019552eaa399e98f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a65d563b072e1f019552eaa399e98f3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>decode</b> ()</td></tr>
 <tr class="separator:a9a65d563b072e1f019552eaa399e98f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a20559544fdf4dcb457e258dc976cf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a20559544fdf4dcb457e258dc976cf8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a4a20559544fdf4dcb457e258dc976cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace426911ddb04a560f6942b332e2f70f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#ace426911ddb04a560f6942b332e2f70f">setChannel</a> ($channel)</td></tr>
 <tr class="separator:ace426911ddb04a560f6942b332e2f70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36dfd022de0ae2ce783b2384aabb17f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a36dfd022de0ae2ce783b2384aabb17f7">getChannel</a> ()</td></tr>
+<tr class="memitem:a36dfd022de0ae2ce783b2384aabb17f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36dfd022de0ae2ce783b2384aabb17f7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getChannel</b> ()</td></tr>
 <tr class="separator:a36dfd022de0ae2ce783b2384aabb17f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bfa8300bb6a8092284bc60e81c2c522"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a4bfa8300bb6a8092284bc60e81c2c522">setBuffer</a> ($buffer=null, $offset=0)</td></tr>
-<tr class="separator:a4bfa8300bb6a8092284bc60e81c2c522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee8782a6009ae7e59aef9d88588d498a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#aee8782a6009ae7e59aef9d88588d498a">getOffset</a> ()</td></tr>
-<tr class="separator:aee8782a6009ae7e59aef9d88588d498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae26c1e9de1a05d5b5dae90a079408ed0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#ae26c1e9de1a05d5b5dae90a079408ed0">getBuffer</a> ()</td></tr>
-<tr class="separator:ae26c1e9de1a05d5b5dae90a079408ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb40b812890a8bc058bf6b7a0e1a54d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#adb40b812890a8bc058bf6b7a0e1a54d9">clean</a> ()</td></tr>
+<tr class="memitem:adb40b812890a8bc058bf6b7a0e1a54d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb40b812890a8bc058bf6b7a0e1a54d9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>clean</b> ()</td></tr>
 <tr class="separator:adb40b812890a8bc058bf6b7a0e1a54d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca922c6f7bcc068784112a8e402a59f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca922c6f7bcc068784112a8e402a59f7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__debugInfo</b> ()</td></tr>
+<tr class="separator:aca922c6f7bcc068784112a8e402a59f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classpocketmine_1_1utils_1_1_binary_stream')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classpocketmine_1_1utils_1_1_binary_stream.html">BinaryStream</a></td></tr>
+<tr class="memitem:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9353b259b6f904ae555a0b3c8febeff4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($buffer=&quot;&quot;, $offset=0)</td></tr>
+<tr class="separator:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a20559544fdf4dcb457e258dc976cf8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a582887c9d1ebd3d3fa4aad3317ceb5fc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setBuffer</b> ($buffer=\null, $offset=0)</td></tr>
+<tr class="separator:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee8782a6009ae7e59aef9d88588d498a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOffset</b> ()</td></tr>
+<tr class="separator:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae26c1e9de1a05d5b5dae90a079408ed0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getBuffer</b> ()</td></tr>
+<tr class="separator:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ae7236274150d5ce0af89170801cbbe"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> ($len)</td></tr>
+<tr class="separator:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a919246a4276d0212997226dd558c38"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> ($str)</td></tr>
+<tr class="separator:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8be7ca89e0d4e1d340487e55301a14dd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLong</b> ()</td></tr>
+<tr class="separator:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b8fd7923b4127a5ce962ef25989a0d7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLong</b> ($v)</td></tr>
+<tr class="separator:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4efc51eafee699942cb33c479a3bd2c0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getInt</b> ()</td></tr>
+<tr class="separator:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a432c6f9de42fddeaa23b98f8ff572a4c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putInt</b> ($v)</td></tr>
+<tr class="separator:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a128784ca54753a8177f36beecd2fc28a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLLong</b> ()</td></tr>
+<tr class="separator:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d399c5385e8a037728cbf787418f658"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLLong</b> ($v)</td></tr>
+<tr class="separator:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf050179b6a353e3750f9647299cdaa8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLInt</b> ()</td></tr>
+<tr class="separator:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a283779a48dbf6aac54d33e0fbafd66e2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLInt</b> ($v)</td></tr>
+<tr class="separator:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af18e9a02bf27ee8aac6eedde8fe554fb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSignedShort</b> ()</td></tr>
+<tr class="separator:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b027951e2611ec3727a1529dd6964b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putShort</b> ($v)</td></tr>
+<tr class="separator:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7704a6470e71c5305e49cec69df8b379"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getShort</b> ()</td></tr>
+<tr class="separator:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae7dc96268914752d1bb357e69e24e132"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSignedShort</b> ($v)</td></tr>
+<tr class="separator:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef6fe7a6fce0e58e63bdc63b07a6c8d6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFloat</b> ()</td></tr>
+<tr class="separator:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6596f6ddcefa228695ecc7c64cd1648"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putFloat</b> ($v)</td></tr>
+<tr class="separator:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a263d5c33840622454000c2256bc2fee5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLShort</b> ($signed=\true)</td></tr>
+<tr class="separator:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a422c6e7687547ed8cdb39d7218f5c313"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLShort</b> ($v)</td></tr>
+<tr class="separator:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f0d75bce02291b13018c9d93413025"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLFloat</b> ()</td></tr>
+<tr class="separator:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9b2433fa00ff6d7873e1993fa520a32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLFloat</b> ($v)</td></tr>
+<tr class="separator:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a94478966e9e01128eb9ae0365b299"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTriad</b> ()</td></tr>
+<tr class="separator:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90f29b781bd93333df99d0c501209c4a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putTriad</b> ($v)</td></tr>
+<tr class="separator:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f170d418f6a6fabb3509d602e6e4211"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLTriad</b> ()</td></tr>
+<tr class="separator:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a407ca7a6d85d35f50552083227184324"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLTriad</b> ($v)</td></tr>
+<tr class="separator:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a305f8fcb12ee0fb52baaa9ab7f30474f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getByte</b> ()</td></tr>
+<tr class="separator:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf8ff393f7b6ca56ab7442ce4a29ea12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putByte</b> ($v)</td></tr>
+<tr class="separator:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff78987e92f77d8d125706e9d7ddb28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDataArray</b> ($len=10)</td></tr>
+<tr class="separator:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf6a995aa7c3f8f021d61750cdc8d6fd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putDataArray</b> (array $data=[])</td></tr>
+<tr class="separator:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade4d169112a63085e243c88230a581aa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUUID</b> ()</td></tr>
+<tr class="separator:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6914a7925b02080b8c5b4b1f409fad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putUUID</b> (<a class="el" href="classpocketmine_1_1utils_1_1_u_u_i_d.html">UUID</a> $uuid)</td></tr>
+<tr class="separator:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a116c9fd62e6b5080ff269ec25d6ec9e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSlot</b> ()</td></tr>
+<tr class="separator:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b70f342088fb2973a64fe87f4d234d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSlot</b> (<a class="el" href="classpocketmine_1_1item_1_1_item.html">Item</a> $item)</td></tr>
+<tr class="separator:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afde980915cc78c408e6ac75b662e631c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getString</b> ()</td></tr>
+<tr class="separator:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a082d94599a0b30e70a0c200028520c28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putString</b> ($v)</td></tr>
+<tr class="separator:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d8b23f618074ec2bb4c9ee47da24d31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>feof</b> ()</td></tr>
+<tr class="separator:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9353b259b6f904ae555a0b3c8febeff4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($buffer=&quot;&quot;, $offset=0)</td></tr>
+<tr class="separator:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a20559544fdf4dcb457e258dc976cf8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a582887c9d1ebd3d3fa4aad3317ceb5fc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setBuffer</b> ($buffer=\null, $offset=0)</td></tr>
+<tr class="separator:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee8782a6009ae7e59aef9d88588d498a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOffset</b> ()</td></tr>
+<tr class="separator:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae26c1e9de1a05d5b5dae90a079408ed0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getBuffer</b> ()</td></tr>
+<tr class="separator:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ae7236274150d5ce0af89170801cbbe"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> ($len)</td></tr>
+<tr class="separator:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a919246a4276d0212997226dd558c38"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> ($str)</td></tr>
+<tr class="separator:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8be7ca89e0d4e1d340487e55301a14dd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLong</b> ()</td></tr>
+<tr class="separator:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b8fd7923b4127a5ce962ef25989a0d7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLong</b> ($v)</td></tr>
+<tr class="separator:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4efc51eafee699942cb33c479a3bd2c0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getInt</b> ()</td></tr>
+<tr class="separator:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a432c6f9de42fddeaa23b98f8ff572a4c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putInt</b> ($v)</td></tr>
+<tr class="separator:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a128784ca54753a8177f36beecd2fc28a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLLong</b> ()</td></tr>
+<tr class="separator:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d399c5385e8a037728cbf787418f658"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLLong</b> ($v)</td></tr>
+<tr class="separator:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf050179b6a353e3750f9647299cdaa8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLInt</b> ()</td></tr>
+<tr class="separator:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a283779a48dbf6aac54d33e0fbafd66e2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLInt</b> ($v)</td></tr>
+<tr class="separator:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af18e9a02bf27ee8aac6eedde8fe554fb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSignedShort</b> ()</td></tr>
+<tr class="separator:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b027951e2611ec3727a1529dd6964b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putShort</b> ($v)</td></tr>
+<tr class="separator:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7704a6470e71c5305e49cec69df8b379"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getShort</b> ()</td></tr>
+<tr class="separator:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae7dc96268914752d1bb357e69e24e132"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSignedShort</b> ($v)</td></tr>
+<tr class="separator:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef6fe7a6fce0e58e63bdc63b07a6c8d6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFloat</b> ()</td></tr>
+<tr class="separator:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6596f6ddcefa228695ecc7c64cd1648"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putFloat</b> ($v)</td></tr>
+<tr class="separator:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a263d5c33840622454000c2256bc2fee5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLShort</b> ($signed=\true)</td></tr>
+<tr class="separator:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a422c6e7687547ed8cdb39d7218f5c313"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLShort</b> ($v)</td></tr>
+<tr class="separator:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f0d75bce02291b13018c9d93413025"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLFloat</b> ()</td></tr>
+<tr class="separator:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9b2433fa00ff6d7873e1993fa520a32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLFloat</b> ($v)</td></tr>
+<tr class="separator:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a94478966e9e01128eb9ae0365b299"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTriad</b> ()</td></tr>
+<tr class="separator:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90f29b781bd93333df99d0c501209c4a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putTriad</b> ($v)</td></tr>
+<tr class="separator:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f170d418f6a6fabb3509d602e6e4211"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLTriad</b> ()</td></tr>
+<tr class="separator:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a407ca7a6d85d35f50552083227184324"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLTriad</b> ($v)</td></tr>
+<tr class="separator:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a305f8fcb12ee0fb52baaa9ab7f30474f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getByte</b> ()</td></tr>
+<tr class="separator:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf8ff393f7b6ca56ab7442ce4a29ea12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putByte</b> ($v)</td></tr>
+<tr class="separator:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff78987e92f77d8d125706e9d7ddb28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDataArray</b> ($len=10)</td></tr>
+<tr class="separator:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf6a995aa7c3f8f021d61750cdc8d6fd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putDataArray</b> (array $data=[])</td></tr>
+<tr class="separator:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade4d169112a63085e243c88230a581aa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUUID</b> ()</td></tr>
+<tr class="separator:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6914a7925b02080b8c5b4b1f409fad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putUUID</b> (<a class="el" href="classpocketmine_1_1utils_1_1_u_u_i_d.html">UUID</a> $uuid)</td></tr>
+<tr class="separator:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a116c9fd62e6b5080ff269ec25d6ec9e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSlot</b> ()</td></tr>
+<tr class="separator:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b70f342088fb2973a64fe87f4d234d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSlot</b> (<a class="el" href="classpocketmine_1_1item_1_1_item.html">Item</a> $item)</td></tr>
+<tr class="separator:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afde980915cc78c408e6ac75b662e631c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getString</b> ()</td></tr>
+<tr class="separator:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a082d94599a0b30e70a0c200028520c28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putString</b> ($v)</td></tr>
+<tr class="separator:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d8b23f618074ec2bb4c9ee47da24d31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>feof</b> ()</td></tr>
+<tr class="separator:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9353b259b6f904ae555a0b3c8febeff4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($buffer=&quot;&quot;, $offset=0)</td></tr>
+<tr class="separator:a9353b259b6f904ae555a0b3c8febeff4 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a20559544fdf4dcb457e258dc976cf8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a4a20559544fdf4dcb457e258dc976cf8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a582887c9d1ebd3d3fa4aad3317ceb5fc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setBuffer</b> ($buffer=\null, $offset=0)</td></tr>
+<tr class="separator:a582887c9d1ebd3d3fa4aad3317ceb5fc inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee8782a6009ae7e59aef9d88588d498a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOffset</b> ()</td></tr>
+<tr class="separator:aee8782a6009ae7e59aef9d88588d498a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae26c1e9de1a05d5b5dae90a079408ed0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getBuffer</b> ()</td></tr>
+<tr class="separator:ae26c1e9de1a05d5b5dae90a079408ed0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ae7236274150d5ce0af89170801cbbe"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> ($len)</td></tr>
+<tr class="separator:a1ae7236274150d5ce0af89170801cbbe inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a919246a4276d0212997226dd558c38"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>put</b> ($str)</td></tr>
+<tr class="separator:a8a919246a4276d0212997226dd558c38 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8be7ca89e0d4e1d340487e55301a14dd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLong</b> ()</td></tr>
+<tr class="separator:a8be7ca89e0d4e1d340487e55301a14dd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b8fd7923b4127a5ce962ef25989a0d7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLong</b> ($v)</td></tr>
+<tr class="separator:a8b8fd7923b4127a5ce962ef25989a0d7 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4efc51eafee699942cb33c479a3bd2c0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getInt</b> ()</td></tr>
+<tr class="separator:a4efc51eafee699942cb33c479a3bd2c0 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a432c6f9de42fddeaa23b98f8ff572a4c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putInt</b> ($v)</td></tr>
+<tr class="separator:a432c6f9de42fddeaa23b98f8ff572a4c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a128784ca54753a8177f36beecd2fc28a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLLong</b> ()</td></tr>
+<tr class="separator:a128784ca54753a8177f36beecd2fc28a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d399c5385e8a037728cbf787418f658"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLLong</b> ($v)</td></tr>
+<tr class="separator:a9d399c5385e8a037728cbf787418f658 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf050179b6a353e3750f9647299cdaa8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLInt</b> ()</td></tr>
+<tr class="separator:adf050179b6a353e3750f9647299cdaa8 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a283779a48dbf6aac54d33e0fbafd66e2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLInt</b> ($v)</td></tr>
+<tr class="separator:a283779a48dbf6aac54d33e0fbafd66e2 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af18e9a02bf27ee8aac6eedde8fe554fb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSignedShort</b> ()</td></tr>
+<tr class="separator:af18e9a02bf27ee8aac6eedde8fe554fb inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b027951e2611ec3727a1529dd6964b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putShort</b> ($v)</td></tr>
+<tr class="separator:a5b027951e2611ec3727a1529dd6964b5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7704a6470e71c5305e49cec69df8b379"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getShort</b> ()</td></tr>
+<tr class="separator:a7704a6470e71c5305e49cec69df8b379 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae7dc96268914752d1bb357e69e24e132"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSignedShort</b> ($v)</td></tr>
+<tr class="separator:ae7dc96268914752d1bb357e69e24e132 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef6fe7a6fce0e58e63bdc63b07a6c8d6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFloat</b> ()</td></tr>
+<tr class="separator:aef6fe7a6fce0e58e63bdc63b07a6c8d6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6596f6ddcefa228695ecc7c64cd1648"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putFloat</b> ($v)</td></tr>
+<tr class="separator:ad6596f6ddcefa228695ecc7c64cd1648 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a263d5c33840622454000c2256bc2fee5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLShort</b> ($signed=\true)</td></tr>
+<tr class="separator:a263d5c33840622454000c2256bc2fee5 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a422c6e7687547ed8cdb39d7218f5c313"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLShort</b> ($v)</td></tr>
+<tr class="separator:a422c6e7687547ed8cdb39d7218f5c313 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f0d75bce02291b13018c9d93413025"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLFloat</b> ()</td></tr>
+<tr class="separator:a56f0d75bce02291b13018c9d93413025 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9b2433fa00ff6d7873e1993fa520a32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLFloat</b> ($v)</td></tr>
+<tr class="separator:ab9b2433fa00ff6d7873e1993fa520a32 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32a94478966e9e01128eb9ae0365b299"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTriad</b> ()</td></tr>
+<tr class="separator:a32a94478966e9e01128eb9ae0365b299 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90f29b781bd93333df99d0c501209c4a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putTriad</b> ($v)</td></tr>
+<tr class="separator:a90f29b781bd93333df99d0c501209c4a inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f170d418f6a6fabb3509d602e6e4211"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLTriad</b> ()</td></tr>
+<tr class="separator:a2f170d418f6a6fabb3509d602e6e4211 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a407ca7a6d85d35f50552083227184324"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putLTriad</b> ($v)</td></tr>
+<tr class="separator:a407ca7a6d85d35f50552083227184324 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a305f8fcb12ee0fb52baaa9ab7f30474f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getByte</b> ()</td></tr>
+<tr class="separator:a305f8fcb12ee0fb52baaa9ab7f30474f inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf8ff393f7b6ca56ab7442ce4a29ea12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putByte</b> ($v)</td></tr>
+<tr class="separator:adf8ff393f7b6ca56ab7442ce4a29ea12 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff78987e92f77d8d125706e9d7ddb28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getDataArray</b> ($len=10)</td></tr>
+<tr class="separator:afff78987e92f77d8d125706e9d7ddb28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf6a995aa7c3f8f021d61750cdc8d6fd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putDataArray</b> (array $data=[])</td></tr>
+<tr class="separator:acf6a995aa7c3f8f021d61750cdc8d6fd inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade4d169112a63085e243c88230a581aa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUUID</b> ()</td></tr>
+<tr class="separator:ade4d169112a63085e243c88230a581aa inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6914a7925b02080b8c5b4b1f409fad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putUUID</b> (<a class="el" href="classpocketmine_1_1utils_1_1_u_u_i_d.html">UUID</a> $uuid)</td></tr>
+<tr class="separator:a4f6914a7925b02080b8c5b4b1f409fad inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a116c9fd62e6b5080ff269ec25d6ec9e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSlot</b> ()</td></tr>
+<tr class="separator:a116c9fd62e6b5080ff269ec25d6ec9e6 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99b70f342088fb2973a64fe87f4d234d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putSlot</b> (<a class="el" href="classpocketmine_1_1item_1_1_item.html">Item</a> $item)</td></tr>
+<tr class="separator:a99b70f342088fb2973a64fe87f4d234d inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afde980915cc78c408e6ac75b662e631c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getString</b> ()</td></tr>
+<tr class="separator:afde980915cc78c408e6ac75b662e631c inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a082d94599a0b30e70a0c200028520c28"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>putString</b> ($v)</td></tr>
+<tr class="separator:a082d94599a0b30e70a0c200028520c28 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d8b23f618074ec2bb4c9ee47da24d31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>feof</b> ()</td></tr>
+<tr class="separator:a8d8b23f618074ec2bb4c9ee47da24d31 inherit pub_methods_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a63546c9fa8c0c413cf997be4120332d9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a63546c9fa8c0c413cf997be4120332d9">NETWORK_ID</a> = 0</td></tr>
+<tr class="memitem:a63546c9fa8c0c413cf997be4120332d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63546c9fa8c0c413cf997be4120332d9"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>NETWORK_ID</b> = 0</td></tr>
 <tr class="separator:a63546c9fa8c0c413cf997be4120332d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec4de82415d7f05cb9748d12d3a95a87"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#aec4de82415d7f05cb9748d12d3a95a87">$offset</a> = 0</td></tr>
-<tr class="separator:aec4de82415d7f05cb9748d12d3a95a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1862006a19e84e552f66189adc792ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#af1862006a19e84e552f66189adc792ae">$buffer</a> = &quot;&quot;</td></tr>
-<tr class="separator:af1862006a19e84e552f66189adc792ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a320ea081c0fdfcc12cf057667f402bd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a320ea081c0fdfcc12cf057667f402bd4">$isEncoded</a> = false</td></tr>
+<tr class="memitem:a320ea081c0fdfcc12cf057667f402bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a320ea081c0fdfcc12cf057667f402bd4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$isEncoded</b> = \false</td></tr>
 <tr class="separator:a320ea081c0fdfcc12cf057667f402bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4a20559544fdf4dcb457e258dc976cf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a4a20559544fdf4dcb457e258dc976cf8">reset</a> ()</td></tr>
-<tr class="separator:a4a20559544fdf4dcb457e258dc976cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ae7236274150d5ce0af89170801cbbe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a1ae7236274150d5ce0af89170801cbbe">get</a> ($len)</td></tr>
-<tr class="separator:a1ae7236274150d5ce0af89170801cbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a919246a4276d0212997226dd558c38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a8a919246a4276d0212997226dd558c38">put</a> ($str)</td></tr>
-<tr class="separator:a8a919246a4276d0212997226dd558c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8be7ca89e0d4e1d340487e55301a14dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a8be7ca89e0d4e1d340487e55301a14dd">getLong</a> ()</td></tr>
-<tr class="separator:a8be7ca89e0d4e1d340487e55301a14dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8fd7923b4127a5ce962ef25989a0d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a8b8fd7923b4127a5ce962ef25989a0d7">putLong</a> ($v)</td></tr>
-<tr class="separator:a8b8fd7923b4127a5ce962ef25989a0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4efc51eafee699942cb33c479a3bd2c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a4efc51eafee699942cb33c479a3bd2c0">getInt</a> ()</td></tr>
-<tr class="separator:a4efc51eafee699942cb33c479a3bd2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a432c6f9de42fddeaa23b98f8ff572a4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a432c6f9de42fddeaa23b98f8ff572a4c">putInt</a> ($v)</td></tr>
-<tr class="separator:a432c6f9de42fddeaa23b98f8ff572a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade4591e59e38d935589d4303369c2b47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#ade4591e59e38d935589d4303369c2b47">getShort</a> ($signed=true)</td></tr>
-<tr class="separator:ade4591e59e38d935589d4303369c2b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b027951e2611ec3727a1529dd6964b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a5b027951e2611ec3727a1529dd6964b5">putShort</a> ($v)</td></tr>
-<tr class="separator:a5b027951e2611ec3727a1529dd6964b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef6fe7a6fce0e58e63bdc63b07a6c8d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#aef6fe7a6fce0e58e63bdc63b07a6c8d6">getFloat</a> ()</td></tr>
-<tr class="separator:aef6fe7a6fce0e58e63bdc63b07a6c8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6596f6ddcefa228695ecc7c64cd1648"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#ad6596f6ddcefa228695ecc7c64cd1648">putFloat</a> ($v)</td></tr>
-<tr class="separator:ad6596f6ddcefa228695ecc7c64cd1648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a94478966e9e01128eb9ae0365b299"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a32a94478966e9e01128eb9ae0365b299">getTriad</a> ()</td></tr>
-<tr class="separator:a32a94478966e9e01128eb9ae0365b299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90f29b781bd93333df99d0c501209c4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a90f29b781bd93333df99d0c501209c4a">putTriad</a> ($v)</td></tr>
-<tr class="separator:a90f29b781bd93333df99d0c501209c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f170d418f6a6fabb3509d602e6e4211"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a2f170d418f6a6fabb3509d602e6e4211">getLTriad</a> ()</td></tr>
-<tr class="separator:a2f170d418f6a6fabb3509d602e6e4211"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a407ca7a6d85d35f50552083227184324"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a407ca7a6d85d35f50552083227184324">putLTriad</a> ($v)</td></tr>
-<tr class="separator:a407ca7a6d85d35f50552083227184324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a305f8fcb12ee0fb52baaa9ab7f30474f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a305f8fcb12ee0fb52baaa9ab7f30474f">getByte</a> ()</td></tr>
-<tr class="separator:a305f8fcb12ee0fb52baaa9ab7f30474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf8ff393f7b6ca56ab7442ce4a29ea12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#adf8ff393f7b6ca56ab7442ce4a29ea12">putByte</a> ($v)</td></tr>
-<tr class="separator:adf8ff393f7b6ca56ab7442ce4a29ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff78987e92f77d8d125706e9d7ddb28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#afff78987e92f77d8d125706e9d7ddb28">getDataArray</a> ($len=10)</td></tr>
-<tr class="separator:afff78987e92f77d8d125706e9d7ddb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf6a995aa7c3f8f021d61750cdc8d6fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#acf6a995aa7c3f8f021d61750cdc8d6fd">putDataArray</a> (array $data=[])</td></tr>
-<tr class="separator:acf6a995aa7c3f8f021d61750cdc8d6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a116c9fd62e6b5080ff269ec25d6ec9e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a116c9fd62e6b5080ff269ec25d6ec9e6">getSlot</a> ()</td></tr>
-<tr class="separator:a116c9fd62e6b5080ff269ec25d6ec9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99b70f342088fb2973a64fe87f4d234d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a99b70f342088fb2973a64fe87f4d234d">putSlot</a> (<a class="el" href="classpocketmine_1_1item_1_1_item.html">Item</a> $item)</td></tr>
-<tr class="separator:a99b70f342088fb2973a64fe87f4d234d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde980915cc78c408e6ac75b662e631c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#afde980915cc78c408e6ac75b662e631c">getString</a> ()</td></tr>
-<tr class="separator:afde980915cc78c408e6ac75b662e631c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a082d94599a0b30e70a0c200028520c28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a082d94599a0b30e70a0c200028520c28">putString</a> ($v)</td></tr>
-<tr class="separator:a082d94599a0b30e70a0c200028520c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8b23f618074ec2bb4c9ee47da24d31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1network_1_1protocol_1_1_data_packet.html#a8d8b23f618074ec2bb4c9ee47da24d31">feof</a> ()</td></tr>
-<tr class="separator:a8d8b23f618074ec2bb4c9ee47da24d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classpocketmine_1_1utils_1_1_binary_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classpocketmine_1_1utils_1_1_binary_stream')"><img src="closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="classpocketmine_1_1utils_1_1_binary_stream.html">BinaryStream</a></td></tr>
+<tr class="memitem:aec4de82415d7f05cb9748d12d3a95a87 inherit pub_attribs_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec4de82415d7f05cb9748d12d3a95a87"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$offset</b></td></tr>
+<tr class="separator:aec4de82415d7f05cb9748d12d3a95a87 inherit pub_attribs_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1862006a19e84e552f66189adc792ae inherit pub_attribs_classpocketmine_1_1utils_1_1_binary_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1862006a19e84e552f66189adc792ae"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$buffer</b></td></tr>
+<tr class="separator:af1862006a19e84e552f66189adc792ae inherit pub_attribs_classpocketmine_1_1utils_1_1_binary_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="adb40b812890a8bc058bf6b7a0e1a54d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">clean </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9a65d563b072e1f019552eaa399e98f3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">decode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac9eb7dbc2495dbe58fd71b71b26ef8a6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">encode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8d8b23f618074ec2bb4c9ee47da24d31"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">feof </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1ae7236274150d5ce0af89170801cbbe"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">get </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$len</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae26c1e9de1a05d5b5dae90a079408ed0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">getBuffer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a305f8fcb12ee0fb52baaa9ab7f30474f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getByte </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a36dfd022de0ae2ce783b2384aabb17f7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">getChannel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afff78987e92f77d8d125706e9d7ddb28"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getDataArray </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$len</em> = <code>10</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aef6fe7a6fce0e58e63bdc63b07a6c8d6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getFloat </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4efc51eafee699942cb33c479a3bd2c0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getInt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8be7ca89e0d4e1d340487e55301a14dd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getLong </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2f170d418f6a6fabb3509d602e6e4211"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getLTriad </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aee8782a6009ae7e59aef9d88588d498a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">getOffset </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ade4591e59e38d935589d4303369c2b47"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getShort </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$signed</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a116c9fd62e6b5080ff269ec25d6ec9e6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getSlot </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afde980915cc78c408e6ac75b662e631c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a32a94478966e9e01128eb9ae0365b299"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">getTriad </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3bebfa5c2ae5b081beb253d1dd1262d3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">pid </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8a919246a4276d0212997226dd558c38"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">put </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$str</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adf8ff393f7b6ca56ab7442ce4a29ea12"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putByte </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acf6a995aa7c3f8f021d61750cdc8d6fd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putDataArray </td>
-          <td>(</td>
-          <td class="paramtype">array&#160;</td>
-          <td class="paramname"><em>$data</em> = <code>[]</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad6596f6ddcefa228695ecc7c64cd1648"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putFloat </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a432c6f9de42fddeaa23b98f8ff572a4c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putInt </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8b8fd7923b4127a5ce962ef25989a0d7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putLong </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a407ca7a6d85d35f50552083227184324"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putLTriad </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5b027951e2611ec3727a1529dd6964b5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putShort </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a99b70f342088fb2973a64fe87f4d234d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putSlot </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classpocketmine_1_1item_1_1_item.html">Item</a>&#160;</td>
-          <td class="paramname"><em>$item</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a082d94599a0b30e70a0c200028520c28"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putString </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a90f29b781bd93333df99d0c501209c4a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">putTriad </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4a20559544fdf4dcb457e258dc976cf8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">reset </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4bfa8300bb6a8092284bc60e81c2c522"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">setBuffer </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$buffer</em> = <code>null</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$offset</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ace426911ddb04a560f6942b332e2f70f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -980,60 +654,12 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="af1862006a19e84e552f66189adc792ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$buffer = &quot;&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a320ea081c0fdfcc12cf057667f402bd4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$isEncoded = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aec4de82415d7f05cb9748d12d3a95a87"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$offset = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a63546c9fa8c0c413cf997be4120332d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const NETWORK_ID = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000057">Deprecated:</a></b></dt><dd>This adds extra overhead on the network, so its usage is now discouraged. It was a test for the viability of this. </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>network/protocol/<a class="el" href="_data_packet_8php.html">DataPacket.php</a></li>
+<li>/Users/Kids/GitHub/docs/pocketmine/network/protocol/DataPacket.php</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

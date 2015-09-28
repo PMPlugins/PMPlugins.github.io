@@ -6,7 +6,7 @@ var classpocketmine_1_1block_1_1_leaves =
     [ "getName", "classpocketmine_1_1block_1_1_leaves.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getToolType", "classpocketmine_1_1block_1_1_leaves.html#a98cefe47e5822a30038bfad7cb1bb9e9", null ],
     [ "onUpdate", "classpocketmine_1_1block_1_1_leaves.html#a63695f24af08ae3ed08e1ec6736cbc3b", null ],
-    [ "place", "classpocketmine_1_1block_1_1_leaves.html#a09c3c4f88d6ad5d78d1da9c85ee7a251", null ],
+    [ "place", "classpocketmine_1_1block_1_1_leaves.html#a2720dd7ac2455b0ae971c9d072043888", null ],
     [ "$id", "classpocketmine_1_1block_1_1_leaves.html#ae97941710d863131c700f069b109991e", null ],
     [ "ACACIA", "classpocketmine_1_1block_1_1_leaves.html#ae13c9598bde1a529baddef2fd4870d58", null ],
     [ "BIRCH", "classpocketmine_1_1block_1_1_leaves.html#aec90db656708049b1857b55ea00fa0b0", null ],

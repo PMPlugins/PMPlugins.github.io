@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>PocketMine Docs: CallbackTask Class Reference</title>
+<title>PocketMine_Docs: CallbackTask Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,10 +30,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="9ef95b0c49d34a3aa2fe6669b6101d74_normal.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PocketMine Docs
+   <div id="projectname">PocketMine_Docs
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
+   <div id="projectbrief">PM</div>
   </td>
  </tr>
  </tbody>
@@ -50,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -130,7 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a38e033db0ccd1fc12c2ac550d50aa32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0be839e0782a38a172c386bd963375c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1scheduler_1_1_callback_task.html#a0be839e0782a38a172c386bd963375c9">getCallable</a> ()</td></tr>
 <tr class="separator:a0be839e0782a38a172c386bd963375c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a5f3c7f048e51edb50050e779d3294e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1scheduler_1_1_callback_task.html#a9a5f3c7f048e51edb50050e779d3294e">onRun</a> ($currentTicks)</td></tr>
+<tr class="memitem:a9a5f3c7f048e51edb50050e779d3294e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a5f3c7f048e51edb50050e779d3294e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>onRun</b> ($currentTicks)</td></tr>
 <tr class="separator:a9a5f3c7f048e51edb50050e779d3294e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classpocketmine_1_1scheduler_1_1_task"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classpocketmine_1_1scheduler_1_1_task')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classpocketmine_1_1scheduler_1_1_task.html">Task</a></td></tr>
 <tr class="memitem:af6d32e315113b99086e9ba29576423d9 inherit pub_methods_classpocketmine_1_1scheduler_1_1_task"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1scheduler_1_1_task.html#af6d32e315113b99086e9ba29576423d9">getHandler</a> ()</td></tr>
@@ -146,15 +148,17 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ae3d0fc9fa800751a4a5e2917209d85f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1scheduler_1_1_callback_task.html#ae3d0fc9fa800751a4a5e2917209d85f2">$callable</a></td></tr>
+<tr class="memitem:ae3d0fc9fa800751a4a5e2917209d85f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3d0fc9fa800751a4a5e2917209d85f2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$callable</b></td></tr>
 <tr class="separator:ae3d0fc9fa800751a4a5e2917209d85f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67e94494731d99ed23b123e95175bc10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1scheduler_1_1_callback_task.html#a67e94494731d99ed23b123e95175bc10">$args</a></td></tr>
+<tr class="memitem:a67e94494731d99ed23b123e95175bc10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67e94494731d99ed23b123e95175bc10"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$args</b></td></tr>
 <tr class="separator:a67e94494731d99ed23b123e95175bc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Allows the creation of simple callbacks with extra data The last parameter in the callback will be this object</p>
 <p>If you want to do a task in a Plugin, consider extending <a class="el" href="classpocketmine_1_1scheduler_1_1_plugin_task.html">PluginTask</a> to your needs</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000021">Deprecated:</a></b></dt><dd></dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000071">Deprecated:</a></b></dt><dd></dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a38e033db0ccd1fc12c2ac550d50aa32f"></a>
 <div class="memitem">
@@ -206,65 +210,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9a5f3c7f048e51edb50050e779d3294e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">onRun </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$currentTicks</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a67e94494731d99ed23b123e95175bc10"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">$args</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae3d0fc9fa800751a4a5e2917209d85f2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">$callable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>scheduler/<a class="el" href="_callback_task_8php.html">CallbackTask.php</a></li>
+<li>/Users/Kids/GitHub/docs/pocketmine/scheduler/CallbackTask.php</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

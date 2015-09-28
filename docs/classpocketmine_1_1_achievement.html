@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>PocketMine Docs: Achievement Class Reference</title>
+<title>PocketMine_Docs: Achievement Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -30,10 +30,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="9ef95b0c49d34a3aa2fe6669b6101d74_normal.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PocketMine Docs
+   <div id="projectname">PocketMine_Docs
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
+   <div id="projectbrief">PM</div>
   </td>
  </tr>
  </tbody>
@@ -50,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -117,96 +118,24 @@ $(document).ready(function(){initNavTree('classpocketmine_1_1_achievement.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d405476880e930d8dba97480cac54b9"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1_achievement.html#a4d405476880e930d8dba97480cac54b9">broadcast</a> (<a class="el" href="classpocketmine_1_1_player.html">Player</a> $player, $achievementId)</td></tr>
+<tr class="memitem:a4d405476880e930d8dba97480cac54b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d405476880e930d8dba97480cac54b9"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>broadcast</b> (<a class="el" href="classpocketmine_1_1_player.html">Player</a> $player, $achievementId)</td></tr>
 <tr class="separator:a4d405476880e930d8dba97480cac54b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea3df4187edec7f2c08fd529dd756224"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1_achievement.html#aea3df4187edec7f2c08fd529dd756224">add</a> ($achievementId, $achievementName, array $<a class="el" href="classpocketmine_1_1_achievement.html#a329573df2f6ed57120ea99836d698a6c">requires</a>=[])</td></tr>
+<tr class="memitem:aea3df4187edec7f2c08fd529dd756224"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea3df4187edec7f2c08fd529dd756224"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> ($achievementId, $achievementName, array $requires=[])</td></tr>
 <tr class="separator:aea3df4187edec7f2c08fd529dd756224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a358b00350db3d8f227d500337cc437af"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1_achievement.html#a358b00350db3d8f227d500337cc437af">$list</a></td></tr>
+<tr class="memitem:a358b00350db3d8f227d500337cc437af"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><b>$list</b></td></tr>
 <tr class="separator:a358b00350db3d8f227d500337cc437af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329573df2f6ed57120ea99836d698a6c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpocketmine_1_1_achievement.html#a329573df2f6ed57120ea99836d698a6c">requires</a></td></tr>
+<tr class="memitem:a329573df2f6ed57120ea99836d698a6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a329573df2f6ed57120ea99836d698a6c"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>requires</b></td></tr>
 <tr class="separator:a329573df2f6ed57120ea99836d698a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handles the achievement list and a bit more </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aea3df4187edec7f2c08fd529dd756224"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static add </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$achievementId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$achievementName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">array&#160;</td>
-          <td class="paramname"><em>$requires</em> = <code>[]</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4d405476880e930d8dba97480cac54b9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static broadcast </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classpocketmine_1_1_player.html">Player</a>&#160;</td>
-          <td class="paramname"><em>$player</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$achievementId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Field Documentation</h2>
+</div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a358b00350db3d8f227d500337cc437af"></a>
 <div class="memitem">
 <div class="memproto">
@@ -231,28 +160,8 @@ Static Public Attributes</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a329573df2f6ed57120ea99836d698a6c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">requires</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_achievement_8php.html">Achievement.php</a></li>
+<li>/Users/Kids/GitHub/docs/pocketmine/Achievement.php</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

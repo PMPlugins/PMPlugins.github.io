@@ -2,6 +2,7 @@ var classpocketmine_1_1nbt_1_1tag_1_1_compound =
 [
     [ "__construct", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a53fc59e686121a77fbbe23ece216a708", null ],
     [ "__toString", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
+    [ "getCount", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a24d4dbc71552d9387256a3cc426e3898", null ],
     [ "getType", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a830b5c75df72b32396701bc563fbe3c7", null ],
     [ "offsetExists", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a24ff257ec0c2221bc6fd7b1b4388e26e", null ],
     [ "offsetGet", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html#a59aee6e89465b48f014699f41b521f87", null ],

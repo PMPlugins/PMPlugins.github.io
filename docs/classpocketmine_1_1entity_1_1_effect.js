@@ -1,7 +1,7 @@
 var classpocketmine_1_1entity_1_1_effect =
 [
-    [ "__construct", "classpocketmine_1_1entity_1_1_effect.html#a6935da61d9bba4f9d7e4257aa1537683", null ],
-    [ "add", "classpocketmine_1_1entity_1_1_effect.html#a5aeb10af665c9206313dc11e083562fb", null ],
+    [ "__construct", "classpocketmine_1_1entity_1_1_effect.html#ac87a6c392847a3429bf9188de2ba34bf", null ],
+    [ "add", "classpocketmine_1_1entity_1_1_effect.html#a5c3bfac1e7bab7abe4f2dcc905ed8374", null ],
     [ "applyEffect", "classpocketmine_1_1entity_1_1_effect.html#ab7fd4cd6225936811861797fa9c92fe7", null ],
     [ "canTick", "classpocketmine_1_1entity_1_1_effect.html#a5f1811ce4b4a7acf2f986dcb5d2e8a44", null ],
     [ "getAmplifier", "classpocketmine_1_1entity_1_1_effect.html#af18fcabfb29bf0d7877c4ceef35ca7d3", null ],
@@ -13,7 +13,7 @@ var classpocketmine_1_1entity_1_1_effect =
     [ "isBad", "classpocketmine_1_1entity_1_1_effect.html#a09652888ae17c3c0b08135c6a8823500", null ],
     [ "isVisible", "classpocketmine_1_1entity_1_1_effect.html#a35606a18f7163f5196819d2e2e7282ca", null ],
     [ "remove", "classpocketmine_1_1entity_1_1_effect.html#a3ff98c8aa2bcfb76df3cec8a4835d0da", null ],
-    [ "setAmbient", "classpocketmine_1_1entity_1_1_effect.html#a3fe04b4957b772d37b5cfd95c7b7d520", null ],
+    [ "setAmbient", "classpocketmine_1_1entity_1_1_effect.html#a72f77c31be4d17bfdfa814a6e163eb4c", null ],
     [ "setAmplifier", "classpocketmine_1_1entity_1_1_effect.html#a2172954b9345ac5b6a8d9167e4fc13e0", null ],
     [ "setColor", "classpocketmine_1_1entity_1_1_effect.html#a160f43f600bc3085043c6437adafa098", null ],
     [ "setDuration", "classpocketmine_1_1entity_1_1_effect.html#a2419787bdd1ea6954df286b7a7cee61b", null ],

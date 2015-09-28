@@ -6,6 +6,6 @@ var classpocketmine_1_1block_1_1_workbench =
     [ "getHardness", "classpocketmine_1_1block_1_1_workbench.html#a4148d36ab8f8a463062163a7f9b3bf6e", null ],
     [ "getName", "classpocketmine_1_1block_1_1_workbench.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getToolType", "classpocketmine_1_1block_1_1_workbench.html#a98cefe47e5822a30038bfad7cb1bb9e9", null ],
-    [ "onActivate", "classpocketmine_1_1block_1_1_workbench.html#a82efaf3fedbc7606e658198b1e48795a", null ],
+    [ "onActivate", "classpocketmine_1_1block_1_1_workbench.html#a7074282ed6e386bec8669a0393846a85", null ],
     [ "$id", "classpocketmine_1_1block_1_1_workbench.html#ae97941710d863131c700f069b109991e", null ]
 ];

@@ -10,6 +10,7 @@ var classpocketmine_1_1network_1_1protocol_1_1_text_packet =
     [ "TYPE_CHAT", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#ab81cfcb11075848a8adcb61df78ce78b", null ],
     [ "TYPE_POPUP", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#a6435b17dce1fb2d66d123fc502569afa", null ],
     [ "TYPE_RAW", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#ac6739fe48bea4443d470e75ce445d0ff", null ],
+    [ "TYPE_SYSTEM", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#abcba2c65dbad1438d2fb068e40a78d1c", null ],
     [ "TYPE_TIP", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#a8c65e75b03234669ea1ec12cb126f6bb", null ],
     [ "TYPE_TRANSLATION", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html#ae634a0fb1c3eb5c1866bcb23d5bca0a8", null ]
 ];
