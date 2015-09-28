@@ -1,0 +1,96 @@
+var namespacepocketmine_1_1level =
+[
+    [ "format", null, [
+      [ "anvil", null, [
+        [ "Anvil", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_anvil.html", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_anvil" ],
+        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk.html", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk" ],
+        [ "ChunkRequestTask", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk_request_task.html", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk_request_task" ],
+        [ "ChunkSection", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk_section.html", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk_section" ],
+        [ "RegionLoader", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_region_loader.html", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_region_loader" ]
+      ] ],
+      [ "generic", null, [
+        [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk" ],
+        [ "BaseFullChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_full_chunk.html", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_full_chunk" ],
+        [ "BaseLevelProvider", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_level_provider.html", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_level_provider" ],
+        [ "EmptyChunkSection", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section" ]
+      ] ],
+      [ "leveldb", null, [
+        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_chunk.html", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_chunk" ],
+        [ "LevelDB", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_level_d_b.html", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_level_d_b" ]
+      ] ],
+      [ "mcregion", null, [
+        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_chunk.html", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_chunk" ],
+        [ "McRegion", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_mc_region.html", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_mc_region" ],
+        [ "RegionLoader", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_region_loader.html", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_region_loader" ]
+      ] ],
+      [ "Chunk", "interfacepocketmine_1_1level_1_1format_1_1_chunk.html", "interfacepocketmine_1_1level_1_1format_1_1_chunk" ],
+      [ "ChunkSection", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section" ],
+      [ "FullChunk", "interfacepocketmine_1_1level_1_1format_1_1_full_chunk.html", "interfacepocketmine_1_1level_1_1format_1_1_full_chunk" ],
+      [ "LevelProvider", "interfacepocketmine_1_1level_1_1format_1_1_level_provider.html", "interfacepocketmine_1_1level_1_1format_1_1_level_provider" ],
+      [ "LevelProviderManager", "classpocketmine_1_1level_1_1format_1_1_level_provider_manager.html", null ]
+    ] ],
+    [ "generator", "namespacepocketmine_1_1level_1_1generator.html", "namespacepocketmine_1_1level_1_1generator" ],
+    [ "particle", null, [
+      [ "AngryVillagerParticle", "classpocketmine_1_1level_1_1particle_1_1_angry_villager_particle.html", "classpocketmine_1_1level_1_1particle_1_1_angry_villager_particle" ],
+      [ "BubbleParticle", "classpocketmine_1_1level_1_1particle_1_1_bubble_particle.html", "classpocketmine_1_1level_1_1particle_1_1_bubble_particle" ],
+      [ "CriticalParticle", "classpocketmine_1_1level_1_1particle_1_1_critical_particle.html", "classpocketmine_1_1level_1_1particle_1_1_critical_particle" ],
+      [ "DestroyBlockParticle", "classpocketmine_1_1level_1_1particle_1_1_destroy_block_particle.html", "classpocketmine_1_1level_1_1particle_1_1_destroy_block_particle" ],
+      [ "DustParticle", "classpocketmine_1_1level_1_1particle_1_1_dust_particle.html", "classpocketmine_1_1level_1_1particle_1_1_dust_particle" ],
+      [ "EnchantmentTableParticle", "classpocketmine_1_1level_1_1particle_1_1_enchantment_table_particle.html", "classpocketmine_1_1level_1_1particle_1_1_enchantment_table_particle" ],
+      [ "EnchantParticle", "classpocketmine_1_1level_1_1particle_1_1_enchant_particle.html", "classpocketmine_1_1level_1_1particle_1_1_enchant_particle" ],
+      [ "EntityFlameParticle", "classpocketmine_1_1level_1_1particle_1_1_entity_flame_particle.html", "classpocketmine_1_1level_1_1particle_1_1_entity_flame_particle" ],
+      [ "ExplodeParticle", "classpocketmine_1_1level_1_1particle_1_1_explode_particle.html", "classpocketmine_1_1level_1_1particle_1_1_explode_particle" ],
+      [ "FlameParticle", "classpocketmine_1_1level_1_1particle_1_1_flame_particle.html", "classpocketmine_1_1level_1_1particle_1_1_flame_particle" ],
+      [ "FloatingTextParticle", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle.html", "classpocketmine_1_1level_1_1particle_1_1_floating_text_particle" ],
+      [ "GenericParticle", "classpocketmine_1_1level_1_1particle_1_1_generic_particle.html", "classpocketmine_1_1level_1_1particle_1_1_generic_particle" ],
+      [ "HappyVillagerParticle", "classpocketmine_1_1level_1_1particle_1_1_happy_villager_particle.html", "classpocketmine_1_1level_1_1particle_1_1_happy_villager_particle" ],
+      [ "HeartParticle", "classpocketmine_1_1level_1_1particle_1_1_heart_particle.html", "classpocketmine_1_1level_1_1particle_1_1_heart_particle" ],
+      [ "HugeExplodeParticle", "classpocketmine_1_1level_1_1particle_1_1_huge_explode_particle.html", "classpocketmine_1_1level_1_1particle_1_1_huge_explode_particle" ],
+      [ "InkParticle", "classpocketmine_1_1level_1_1particle_1_1_ink_particle.html", "classpocketmine_1_1level_1_1particle_1_1_ink_particle" ],
+      [ "InstantEnchantParticle", "classpocketmine_1_1level_1_1particle_1_1_instant_enchant_particle.html", "classpocketmine_1_1level_1_1particle_1_1_instant_enchant_particle" ],
+      [ "ItemBreakParticle", "classpocketmine_1_1level_1_1particle_1_1_item_break_particle.html", "classpocketmine_1_1level_1_1particle_1_1_item_break_particle" ],
+      [ "LargeExplodeParticle", "classpocketmine_1_1level_1_1particle_1_1_large_explode_particle.html", "classpocketmine_1_1level_1_1particle_1_1_large_explode_particle" ],
+      [ "LavaDripParticle", "classpocketmine_1_1level_1_1particle_1_1_lava_drip_particle.html", "classpocketmine_1_1level_1_1particle_1_1_lava_drip_particle" ],
+      [ "LavaParticle", "classpocketmine_1_1level_1_1particle_1_1_lava_particle.html", "classpocketmine_1_1level_1_1particle_1_1_lava_particle" ],
+      [ "MobSpawnParticle", "classpocketmine_1_1level_1_1particle_1_1_mob_spawn_particle.html", "classpocketmine_1_1level_1_1particle_1_1_mob_spawn_particle" ],
+      [ "Particle", "classpocketmine_1_1level_1_1particle_1_1_particle.html", "classpocketmine_1_1level_1_1particle_1_1_particle" ],
+      [ "PortalParticle", "classpocketmine_1_1level_1_1particle_1_1_portal_particle.html", "classpocketmine_1_1level_1_1particle_1_1_portal_particle" ],
+      [ "RainSplashParticle", "classpocketmine_1_1level_1_1particle_1_1_rain_splash_particle.html", "classpocketmine_1_1level_1_1particle_1_1_rain_splash_particle" ],
+      [ "RedstoneParticle", "classpocketmine_1_1level_1_1particle_1_1_redstone_particle.html", "classpocketmine_1_1level_1_1particle_1_1_redstone_particle" ],
+      [ "SmokeParticle", "classpocketmine_1_1level_1_1particle_1_1_smoke_particle.html", "classpocketmine_1_1level_1_1particle_1_1_smoke_particle" ],
+      [ "SplashParticle", "classpocketmine_1_1level_1_1particle_1_1_splash_particle.html", "classpocketmine_1_1level_1_1particle_1_1_splash_particle" ],
+      [ "SporeParticle", "classpocketmine_1_1level_1_1particle_1_1_spore_particle.html", "classpocketmine_1_1level_1_1particle_1_1_spore_particle" ],
+      [ "TerrainParticle", "classpocketmine_1_1level_1_1particle_1_1_terrain_particle.html", "classpocketmine_1_1level_1_1particle_1_1_terrain_particle" ],
+      [ "WaterDripParticle", "classpocketmine_1_1level_1_1particle_1_1_water_drip_particle.html", "classpocketmine_1_1level_1_1particle_1_1_water_drip_particle" ],
+      [ "WaterParticle", "classpocketmine_1_1level_1_1particle_1_1_water_particle.html", "classpocketmine_1_1level_1_1particle_1_1_water_particle" ]
+    ] ],
+    [ "sound", null, [
+      [ "AnvilBreakSound", "classpocketmine_1_1level_1_1sound_1_1_anvil_break_sound.html", "classpocketmine_1_1level_1_1sound_1_1_anvil_break_sound" ],
+      [ "AnvilFallSound", "classpocketmine_1_1level_1_1sound_1_1_anvil_fall_sound.html", "classpocketmine_1_1level_1_1sound_1_1_anvil_fall_sound" ],
+      [ "AnvilUseSound", "classpocketmine_1_1level_1_1sound_1_1_anvil_use_sound.html", "classpocketmine_1_1level_1_1sound_1_1_anvil_use_sound" ],
+      [ "BatSound", "classpocketmine_1_1level_1_1sound_1_1_bat_sound.html", "classpocketmine_1_1level_1_1sound_1_1_bat_sound" ],
+      [ "BlazeShootSound", "classpocketmine_1_1level_1_1sound_1_1_blaze_shoot_sound.html", "classpocketmine_1_1level_1_1sound_1_1_blaze_shoot_sound" ],
+      [ "ClickSound", "classpocketmine_1_1level_1_1sound_1_1_click_sound.html", "classpocketmine_1_1level_1_1sound_1_1_click_sound" ],
+      [ "DoorBumpSound", "classpocketmine_1_1level_1_1sound_1_1_door_bump_sound.html", "classpocketmine_1_1level_1_1sound_1_1_door_bump_sound" ],
+      [ "DoorCrashSound", "classpocketmine_1_1level_1_1sound_1_1_door_crash_sound.html", "classpocketmine_1_1level_1_1sound_1_1_door_crash_sound" ],
+      [ "DoorSound", "classpocketmine_1_1level_1_1sound_1_1_door_sound.html", "classpocketmine_1_1level_1_1sound_1_1_door_sound" ],
+      [ "EndermanTeleportSound", "classpocketmine_1_1level_1_1sound_1_1_enderman_teleport_sound.html", "classpocketmine_1_1level_1_1sound_1_1_enderman_teleport_sound" ],
+      [ "FizzSound", "classpocketmine_1_1level_1_1sound_1_1_fizz_sound.html", "classpocketmine_1_1level_1_1sound_1_1_fizz_sound" ],
+      [ "GenericSound", "classpocketmine_1_1level_1_1sound_1_1_generic_sound.html", "classpocketmine_1_1level_1_1sound_1_1_generic_sound" ],
+      [ "GhastShootSound", "classpocketmine_1_1level_1_1sound_1_1_ghast_shoot_sound.html", "classpocketmine_1_1level_1_1sound_1_1_ghast_shoot_sound" ],
+      [ "GhastSound", "classpocketmine_1_1level_1_1sound_1_1_ghast_sound.html", "classpocketmine_1_1level_1_1sound_1_1_ghast_sound" ],
+      [ "LaunchSound", "classpocketmine_1_1level_1_1sound_1_1_launch_sound.html", "classpocketmine_1_1level_1_1sound_1_1_launch_sound" ],
+      [ "PopSound", "classpocketmine_1_1level_1_1sound_1_1_pop_sound.html", "classpocketmine_1_1level_1_1sound_1_1_pop_sound" ],
+      [ "Sound", "classpocketmine_1_1level_1_1sound_1_1_sound.html", "classpocketmine_1_1level_1_1sound_1_1_sound" ],
+      [ "ZombieHealSound", "classpocketmine_1_1level_1_1sound_1_1_zombie_heal_sound.html", "classpocketmine_1_1level_1_1sound_1_1_zombie_heal_sound" ],
+      [ "ZombieInfectSound", "classpocketmine_1_1level_1_1sound_1_1_zombie_infect_sound.html", "classpocketmine_1_1level_1_1sound_1_1_zombie_infect_sound" ]
+    ] ],
+    [ "ChunkLoader", "interfacepocketmine_1_1level_1_1_chunk_loader.html", "interfacepocketmine_1_1level_1_1_chunk_loader" ],
+    [ "ChunkManager", "interfacepocketmine_1_1level_1_1_chunk_manager.html", "interfacepocketmine_1_1level_1_1_chunk_manager" ],
+    [ "Explosion", "classpocketmine_1_1level_1_1_explosion.html", "classpocketmine_1_1level_1_1_explosion" ],
+    [ "Level", "classpocketmine_1_1level_1_1_level.html", "classpocketmine_1_1level_1_1_level" ],
+    [ "Location", "classpocketmine_1_1level_1_1_location.html", "classpocketmine_1_1level_1_1_location" ],
+    [ "MovingObjectPosition", "classpocketmine_1_1level_1_1_moving_object_position.html", "classpocketmine_1_1level_1_1_moving_object_position" ],
+    [ "Position", "classpocketmine_1_1level_1_1_position.html", "classpocketmine_1_1level_1_1_position" ],
+    [ "SimpleChunkManager", "classpocketmine_1_1level_1_1_simple_chunk_manager.html", "classpocketmine_1_1level_1_1_simple_chunk_manager" ]
+];
