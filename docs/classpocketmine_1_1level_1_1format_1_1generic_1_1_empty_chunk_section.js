@@ -1,7 +1,7 @@
 var classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section =
 [
     [ "__construct", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a0971661f266bbb461ab9e80feb130d30", null ],
-    [ "getBlock", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a7b5ee3aa177c847b84f6d915f48088b1", null ],
+    [ "getBlock", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#ace9007a18d332f05a796160643dc5257", null ],
     [ "getBlockData", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#ad2dde6a2b81263a1e3c2ea1884878113", null ],
     [ "getBlockDataColumn", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a6248c546ff2665e703532ebc588771c6", null ],
     [ "getBlockId", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a4c0e82d283f922baba28ccab752ffbf7", null ],
@@ -16,7 +16,7 @@ var classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section =
     [ "getLightArray", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a947e9139d90ca68a364b81176e2155b2", null ],
     [ "getSkyLightArray", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a14a3aaef137cdfe13548d906e76ae5e4", null ],
     [ "getY", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#ac878fc1b93b7d5c1bd6d3142dd197f19", null ],
-    [ "setBlock", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a6b59ef19e90e38829f4744a9263318db", null ],
+    [ "setBlock", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#af9fae4e4655651a401e7494fa7e73ba1", null ],
     [ "setBlockData", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a5207b1c6335ada6da2eb607b410ed0b0", null ],
     [ "setBlockId", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a8159973589f5ee8f61f7a7f0611499f7", null ],
     [ "setBlockLight", "classpocketmine_1_1level_1_1format_1_1generic_1_1_empty_chunk_section.html#a5c7a12b45ec0e6350f89f96399ea388e", null ],

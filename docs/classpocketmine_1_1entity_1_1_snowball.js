@@ -1,6 +1,6 @@
 var classpocketmine_1_1entity_1_1_snowball =
 [
-    [ "__construct", "classpocketmine_1_1entity_1_1_snowball.html#a3d5a1f386fa35917d4c06caca73da863", null ],
+    [ "__construct", "classpocketmine_1_1entity_1_1_snowball.html#a2606ef979f8408c4734158cc02f917a6", null ],
     [ "onUpdate", "classpocketmine_1_1entity_1_1_snowball.html#afea5e7528fb45e4666de311b9c6db5ff", null ],
     [ "spawnTo", "classpocketmine_1_1entity_1_1_snowball.html#ae3cc653b7f1650e74485155a07835e10", null ],
     [ "$drag", "classpocketmine_1_1entity_1_1_snowball.html#a57835eae6549ea8f7984e187187983e2", null ],

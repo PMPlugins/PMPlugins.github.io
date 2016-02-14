@@ -1,6 +1,6 @@
 var classpocketmine_1_1event_1_1player_1_1_player_chat_event =
 [
-    [ "__construct", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html#ae1d92827e897edcd1bfe2f1264f98923", null ],
+    [ "__construct", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html#a696644de8b239259b2838de72b145caa", null ],
     [ "getFormat", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html#ae3c4fbe3e8eb0d6755694bc597d6c52f", null ],
     [ "getMessage", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html#a0b0e611236742aac18ba1936d03ba89a", null ],
     [ "getRecipients", "classpocketmine_1_1event_1_1player_1_1_player_chat_event.html#a9f0dbead6c7df92e86594c318375f5dc", null ],

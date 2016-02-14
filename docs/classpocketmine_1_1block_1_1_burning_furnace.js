@@ -7,8 +7,8 @@ var classpocketmine_1_1block_1_1_burning_furnace =
     [ "getLightLevel", "classpocketmine_1_1block_1_1_burning_furnace.html#a9ff05e5af12e6efd09814698dac53a64", null ],
     [ "getName", "classpocketmine_1_1block_1_1_burning_furnace.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getToolType", "classpocketmine_1_1block_1_1_burning_furnace.html#a98cefe47e5822a30038bfad7cb1bb9e9", null ],
-    [ "onActivate", "classpocketmine_1_1block_1_1_burning_furnace.html#a7074282ed6e386bec8669a0393846a85", null ],
+    [ "onActivate", "classpocketmine_1_1block_1_1_burning_furnace.html#a82efaf3fedbc7606e658198b1e48795a", null ],
     [ "onBreak", "classpocketmine_1_1block_1_1_burning_furnace.html#aad86f8d5fb5a7713c702c0aa86a64b8a", null ],
-    [ "place", "classpocketmine_1_1block_1_1_burning_furnace.html#a2720dd7ac2455b0ae971c9d072043888", null ],
+    [ "place", "classpocketmine_1_1block_1_1_burning_furnace.html#a09c3c4f88d6ad5d78d1da9c85ee7a251", null ],
     [ "$id", "classpocketmine_1_1block_1_1_burning_furnace.html#ae97941710d863131c700f069b109991e", null ]
 ];

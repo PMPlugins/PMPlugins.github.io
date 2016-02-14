@@ -17,5 +17,5 @@ var interfacepocketmine_1_1plugin_1_1_plugin =
     [ "reloadConfig", "interfacepocketmine_1_1plugin_1_1_plugin.html#a57d9220debd2f24efb5320d39e9e73f4", null ],
     [ "saveConfig", "interfacepocketmine_1_1plugin_1_1_plugin.html#a0e7d96a1cd52769359a491e99076593f", null ],
     [ "saveDefaultConfig", "interfacepocketmine_1_1plugin_1_1_plugin.html#ab432f71fe884876e946e2c323606711d", null ],
-    [ "saveResource", "interfacepocketmine_1_1plugin_1_1_plugin.html#a2de5caa20b9affcd2a6c3d98fe2efffa", null ]
+    [ "saveResource", "interfacepocketmine_1_1plugin_1_1_plugin.html#a9104baaa0d31b0687785efc77afca6a2", null ]
 ];

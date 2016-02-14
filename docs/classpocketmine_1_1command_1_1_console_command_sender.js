@@ -1,7 +1,7 @@
 var classpocketmine_1_1command_1_1_console_command_sender =
 [
     [ "__construct", "classpocketmine_1_1command_1_1_console_command_sender.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "addAttachment", "classpocketmine_1_1command_1_1_console_command_sender.html#aa5b82cca59a9719dbedf369ec8f5b7a2", null ],
+    [ "addAttachment", "classpocketmine_1_1command_1_1_console_command_sender.html#a35759332a05d2d423b34847908ffb47f", null ],
     [ "getEffectivePermissions", "classpocketmine_1_1command_1_1_console_command_sender.html#a10830c9b9480c79c226ee38d293fc31d", null ],
     [ "getName", "classpocketmine_1_1command_1_1_console_command_sender.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getServer", "classpocketmine_1_1command_1_1_console_command_sender.html#ac5ee95c48b1668415e82de5e06e2a3a9", null ],

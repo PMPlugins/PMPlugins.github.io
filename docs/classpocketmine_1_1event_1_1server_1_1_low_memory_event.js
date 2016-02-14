@@ -1,6 +1,6 @@
 var classpocketmine_1_1event_1_1server_1_1_low_memory_event =
 [
-    [ "__construct", "classpocketmine_1_1event_1_1server_1_1_low_memory_event.html#a6dae28d2744ce9121029a157f7551eff", null ],
+    [ "__construct", "classpocketmine_1_1event_1_1server_1_1_low_memory_event.html#a12bac5fede8876843e60a626e6dbf657", null ],
     [ "getMemory", "classpocketmine_1_1event_1_1server_1_1_low_memory_event.html#a144248575cd034a40315155a9b48ff87", null ],
     [ "getMemoryFreed", "classpocketmine_1_1event_1_1server_1_1_low_memory_event.html#a2fe0729e4795deb75aa62973e2cea9db", null ],
     [ "getMemoryLimit", "classpocketmine_1_1event_1_1server_1_1_low_memory_event.html#a15634c4aad1694e7d36baa492586e6c2", null ],

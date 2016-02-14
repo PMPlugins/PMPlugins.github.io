@@ -19,8 +19,6 @@ var hierarchy =
     [ "ArrayAccess", null, [
       [ "Matrix", "classpocketmine_1_1math_1_1_matrix.html", null ],
       [ "Compound", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html", null ],
-      [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
-      [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
       [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ]
     ] ],
     [ "AsyncPool", "classpocketmine_1_1scheduler_1_1_async_pool.html", null ],
@@ -141,16 +139,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "ChunkLoader", "interfacepocketmine_1_1level_1_1_chunk_loader.html", [
-      [ "Player", "classpocketmine_1_1_player.html", null ],
-      [ "Player", "classpocketmine_1_1_player.html", null ],
       [ "Player", "classpocketmine_1_1_player.html", null ]
     ] ],
     [ "ChunkManager", "interfacepocketmine_1_1level_1_1_chunk_manager.html", [
       [ "Level", "classpocketmine_1_1level_1_1_level.html", null ],
-      [ "Level", "classpocketmine_1_1level_1_1_level.html", null ],
-      [ "Level", "classpocketmine_1_1level_1_1_level.html", null ],
-      [ "SimpleChunkManager", "classpocketmine_1_1level_1_1_simple_chunk_manager.html", null ],
-      [ "SimpleChunkManager", "classpocketmine_1_1level_1_1_simple_chunk_manager.html", null ],
       [ "SimpleChunkManager", "classpocketmine_1_1level_1_1_simple_chunk_manager.html", null ]
     ] ],
     [ "ChunkSection", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html", [
@@ -232,8 +224,6 @@ var hierarchy =
       [ "Furnace", "classpocketmine_1_1tile_1_1_furnace.html", null ]
     ] ],
     [ "Countable", null, [
-      [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
-      [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
       [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ]
     ] ],
     [ "CraftingManager", "classpocketmine_1_1inventory_1_1_crafting_manager.html", null ],
@@ -243,8 +233,6 @@ var hierarchy =
         [ "Creature", "classpocketmine_1_1entity_1_1_creature.html", [
           [ "Animal", "classpocketmine_1_1entity_1_1_animal.html", null ],
           [ "Human", "classpocketmine_1_1entity_1_1_human.html", [
-            [ "Player", "classpocketmine_1_1_player.html", null ],
-            [ "Player", "classpocketmine_1_1_player.html", null ],
             [ "Player", "classpocketmine_1_1_player.html", null ]
           ] ],
           [ "Monster", "classpocketmine_1_1entity_1_1_monster.html", [
@@ -375,27 +363,17 @@ var hierarchy =
       [ "Chunk", "interfacepocketmine_1_1level_1_1format_1_1_chunk.html", [
         [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", [
           [ "Chunk", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_chunk.html", null ]
-        ] ],
-        [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", null ],
-        [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", null ]
+        ] ]
       ] ],
       [ "BaseFullChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_full_chunk.html", [
         [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", null ],
-        [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", null ],
-        [ "BaseChunk", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_chunk.html", null ],
         [ "Chunk", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_chunk.html", null ],
-        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_chunk.html", null ],
-        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_chunk.html", null ],
-        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_chunk.html", null ],
-        [ "Chunk", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_chunk.html", null ],
         [ "Chunk", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_chunk.html", null ]
       ] ]
     ] ],
     [ "Generator", "classpocketmine_1_1level_1_1generator_1_1_generator.html", [
       [ "Flat", "classpocketmine_1_1level_1_1generator_1_1_flat.html", null ],
       [ "Nether", "classpocketmine_1_1level_1_1generator_1_1hell_1_1_nether.html", null ],
-      [ "Normal", "classpocketmine_1_1level_1_1generator_1_1normal_1_1_normal.html", null ],
-      [ "Normal", "classpocketmine_1_1level_1_1generator_1_1normal_1_1_normal.html", null ],
       [ "Normal", "classpocketmine_1_1level_1_1generator_1_1normal_1_1_normal.html", null ]
     ] ],
     [ "HandlerList", "classpocketmine_1_1event_1_1_handler_list.html", null ],
@@ -422,8 +400,6 @@ var hierarchy =
       [ "Human", "classpocketmine_1_1entity_1_1_human.html", null ],
       [ "DoubleChestInventory", "classpocketmine_1_1inventory_1_1_double_chest_inventory.html", null ],
       [ "FakeBlockMenu", "classpocketmine_1_1inventory_1_1_fake_block_menu.html", null ],
-      [ "Player", "classpocketmine_1_1_player.html", null ],
-      [ "Player", "classpocketmine_1_1_player.html", null ],
       [ "Player", "classpocketmine_1_1_player.html", null ],
       [ "Chest", "classpocketmine_1_1tile_1_1_chest.html", null ],
       [ "Furnace", "classpocketmine_1_1tile_1_1_furnace.html", null ]
@@ -453,32 +429,71 @@ var hierarchy =
         [ "LeatherPants", "classpocketmine_1_1item_1_1_leather_pants.html", null ],
         [ "LeatherTunic", "classpocketmine_1_1item_1_1_leather_tunic.html", null ]
       ] ],
+      [ "Arrow", "classpocketmine_1_1item_1_1_arrow.html", null ],
+      [ "BakedPotato", "classpocketmine_1_1item_1_1_baked_potato.html", null ],
       [ "Bed", "classpocketmine_1_1item_1_1_bed.html", null ],
+      [ "Beetroot", "classpocketmine_1_1item_1_1_beetroot.html", null ],
       [ "BeetrootSeeds", "classpocketmine_1_1item_1_1_beetroot_seeds.html", null ],
       [ "BeetrootSoup", "classpocketmine_1_1item_1_1_beetroot_soup.html", null ],
+      [ "Bone", "classpocketmine_1_1item_1_1_bone.html", null ],
+      [ "Book", "classpocketmine_1_1item_1_1_book.html", null ],
       [ "Bowl", "classpocketmine_1_1item_1_1_bowl.html", null ],
+      [ "Bread", "classpocketmine_1_1item_1_1_bread.html", null ],
       [ "Brick", "classpocketmine_1_1item_1_1_brick.html", null ],
       [ "Bucket", "classpocketmine_1_1item_1_1_bucket.html", null ],
       [ "Cake", "classpocketmine_1_1item_1_1_cake.html", null ],
+      [ "Camera", "classpocketmine_1_1item_1_1_camera.html", null ],
       [ "Carrot", "classpocketmine_1_1item_1_1_carrot.html", null ],
+      [ "Clay", "classpocketmine_1_1item_1_1_clay.html", null ],
+      [ "Clock", "classpocketmine_1_1item_1_1_clock.html", null ],
       [ "Coal", "classpocketmine_1_1item_1_1_coal.html", null ],
+      [ "Compass", "classpocketmine_1_1item_1_1_compass.html", null ],
+      [ "CookedChicken", "classpocketmine_1_1item_1_1_cooked_chicken.html", null ],
       [ "CookedFish", "classpocketmine_1_1item_1_1_cooked_fish.html", null ],
+      [ "CookedPorkchop", "classpocketmine_1_1item_1_1_cooked_porkchop.html", null ],
+      [ "Cookie", "classpocketmine_1_1item_1_1_cookie.html", null ],
       [ "Diamond", "classpocketmine_1_1item_1_1_diamond.html", null ],
+      [ "Dye", "classpocketmine_1_1item_1_1_dye.html", null ],
+      [ "Egg", "classpocketmine_1_1item_1_1_egg.html", null ],
+      [ "Emerald", "classpocketmine_1_1item_1_1_emerald.html", null ],
       [ "Feather", "classpocketmine_1_1item_1_1_feather.html", null ],
       [ "Fish", "classpocketmine_1_1item_1_1_fish.html", null ],
+      [ "FishingRod", "classpocketmine_1_1item_1_1_fishing_rod.html", null ],
+      [ "Flint", "classpocketmine_1_1item_1_1_flint.html", null ],
+      [ "FlowerPot", "classpocketmine_1_1item_1_1_flower_pot.html", null ],
+      [ "GlowstoneDust", "classpocketmine_1_1item_1_1_glowstone_dust.html", null ],
+      [ "GoldenApple", "classpocketmine_1_1item_1_1_golden_apple.html", null ],
       [ "GoldIngot", "classpocketmine_1_1item_1_1_gold_ingot.html", null ],
+      [ "GoldNugget", "classpocketmine_1_1item_1_1_gold_nugget.html", null ],
+      [ "Gunpowder", "classpocketmine_1_1item_1_1_gunpowder.html", null ],
       [ "IronDoor", "classpocketmine_1_1item_1_1_iron_door.html", null ],
       [ "IronIngot", "classpocketmine_1_1item_1_1_iron_ingot.html", null ],
       [ "ItemBlock", "classpocketmine_1_1item_1_1_item_block.html", null ],
+      [ "Leather", "classpocketmine_1_1item_1_1_leather.html", null ],
+      [ "Melon", "classpocketmine_1_1item_1_1_melon.html", null ],
       [ "MelonSeeds", "classpocketmine_1_1item_1_1_melon_seeds.html", null ],
+      [ "Minecart", "classpocketmine_1_1item_1_1_minecart.html", null ],
       [ "MushroomStew", "classpocketmine_1_1item_1_1_mushroom_stew.html", null ],
+      [ "NetherBrick", "classpocketmine_1_1item_1_1_nether_brick.html", null ],
+      [ "NetherQuartz", "classpocketmine_1_1item_1_1_nether_quartz.html", null ],
       [ "Painting", "classpocketmine_1_1item_1_1_painting.html", null ],
+      [ "Paper", "classpocketmine_1_1item_1_1_paper.html", null ],
       [ "Potato", "classpocketmine_1_1item_1_1_potato.html", null ],
+      [ "PumpkinPie", "classpocketmine_1_1item_1_1_pumpkin_pie.html", null ],
       [ "PumpkinSeeds", "classpocketmine_1_1item_1_1_pumpkin_seeds.html", null ],
+      [ "Quartz", "classpocketmine_1_1item_1_1_quartz.html", null ],
+      [ "RawBeef", "classpocketmine_1_1item_1_1_raw_beef.html", null ],
+      [ "RawChicken", "classpocketmine_1_1item_1_1_raw_chicken.html", null ],
+      [ "RawPorkchop", "classpocketmine_1_1item_1_1_raw_porkchop.html", null ],
+      [ "Redstone", "classpocketmine_1_1item_1_1_redstone.html", null ],
       [ "Sign", "classpocketmine_1_1item_1_1_sign.html", null ],
+      [ "Slimeball", "classpocketmine_1_1item_1_1_slimeball.html", null ],
       [ "Snowball", "classpocketmine_1_1item_1_1_snowball.html", null ],
       [ "SpawnEgg", "classpocketmine_1_1item_1_1_spawn_egg.html", null ],
+      [ "Steak", "classpocketmine_1_1item_1_1_steak.html", null ],
       [ "Stick", "classpocketmine_1_1item_1_1_stick.html", null ],
+      [ "StringItem", "classpocketmine_1_1item_1_1_string_item.html", null ],
+      [ "Sugar", "classpocketmine_1_1item_1_1_sugar.html", null ],
       [ "Sugarcane", "classpocketmine_1_1item_1_1_sugarcane.html", null ],
       [ "Tool", "classpocketmine_1_1item_1_1_tool.html", [
         [ "Bow", "classpocketmine_1_1item_1_1_bow.html", null ],
@@ -510,6 +525,7 @@ var hierarchy =
         [ "WoodenShovel", "classpocketmine_1_1item_1_1_wooden_shovel.html", null ],
         [ "WoodenSword", "classpocketmine_1_1item_1_1_wooden_sword.html", null ]
       ] ],
+      [ "Wheat", "classpocketmine_1_1item_1_1_wheat.html", null ],
       [ "WheatSeeds", "classpocketmine_1_1item_1_1_wheat_seeds.html", null ],
       [ "WoodenDoor", "classpocketmine_1_1item_1_1_wooden_door.html", null ]
     ] ],
@@ -519,15 +535,9 @@ var hierarchy =
     [ "LevelProvider", "interfacepocketmine_1_1level_1_1format_1_1_level_provider.html", [
       [ "BaseLevelProvider", "classpocketmine_1_1level_1_1format_1_1generic_1_1_base_level_provider.html", [
         [ "LevelDB", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_level_d_b.html", null ],
-        [ "LevelDB", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_level_d_b.html", null ],
-        [ "LevelDB", "classpocketmine_1_1level_1_1format_1_1leveldb_1_1_level_d_b.html", null ],
         [ "McRegion", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_mc_region.html", [
-          [ "Anvil", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_anvil.html", null ],
-          [ "Anvil", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_anvil.html", null ],
           [ "Anvil", "classpocketmine_1_1level_1_1format_1_1anvil_1_1_anvil.html", null ]
-        ] ],
-        [ "McRegion", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_mc_region.html", null ],
-        [ "McRegion", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_mc_region.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "LevelProviderManager", "classpocketmine_1_1level_1_1format_1_1_level_provider_manager.html", null ],
@@ -580,8 +590,8 @@ var hierarchy =
           [ "Mycelium", "classpocketmine_1_1block_1_1_mycelium.html", null ],
           [ "NetherBrick", "classpocketmine_1_1block_1_1_nether_brick.html", null ],
           [ "Netherrack", "classpocketmine_1_1block_1_1_netherrack.html", null ],
-          [ "NetherReactor", "classpocketmine_1_1block_1_1_nether_reactor.html", null ],
           [ "Obsidian", "classpocketmine_1_1block_1_1_obsidian.html", null ],
+          [ "PackedIce", "classpocketmine_1_1block_1_1_packed_ice.html", null ],
           [ "Planks", "classpocketmine_1_1block_1_1_planks.html", null ],
           [ "Podzol", "classpocketmine_1_1block_1_1_podzol.html", null ],
           [ "Pumpkin", "classpocketmine_1_1block_1_1_pumpkin.html", null ],
@@ -606,6 +616,7 @@ var hierarchy =
         [ "Transparent", "classpocketmine_1_1block_1_1_transparent.html", [
           [ "Air", "classpocketmine_1_1block_1_1_air.html", null ],
           [ "Bed", "classpocketmine_1_1block_1_1_bed.html", null ],
+          [ "BrewingStand", "classpocketmine_1_1block_1_1_brewing_stand.html", null ],
           [ "Cactus", "classpocketmine_1_1block_1_1_cactus.html", null ],
           [ "Cake", "classpocketmine_1_1block_1_1_cake.html", null ],
           [ "Chest", "classpocketmine_1_1block_1_1_chest.html", null ],
@@ -647,10 +658,12 @@ var hierarchy =
             [ "Torch", "classpocketmine_1_1block_1_1_torch.html", null ],
             [ "WaterLily", "classpocketmine_1_1block_1_1_water_lily.html", null ]
           ] ],
+          [ "FlowerPot", "classpocketmine_1_1block_1_1_flower_pot.html", null ],
           [ "Glass", "classpocketmine_1_1block_1_1_glass.html", null ],
           [ "Glowstone", "classpocketmine_1_1block_1_1_glowstone.html", null ],
           [ "GrassPath", "classpocketmine_1_1block_1_1_grass_path.html", null ],
           [ "Ice", "classpocketmine_1_1block_1_1_ice.html", null ],
+          [ "IronTrapdoor", "classpocketmine_1_1block_1_1_iron_trapdoor.html", null ],
           [ "Ladder", "classpocketmine_1_1block_1_1_ladder.html", null ],
           [ "Leaves", "classpocketmine_1_1block_1_1_leaves.html", [
             [ "Leaves2", "classpocketmine_1_1block_1_1_leaves2.html", null ]
@@ -664,6 +677,7 @@ var hierarchy =
             ] ]
           ] ],
           [ "Melon", "classpocketmine_1_1block_1_1_melon.html", null ],
+          [ "NetherBrickFence", "classpocketmine_1_1block_1_1_nether_brick_fence.html", null ],
           [ "SignPost", "classpocketmine_1_1block_1_1_sign_post.html", [
             [ "WallSign", "classpocketmine_1_1block_1_1_wall_sign.html", null ]
           ] ],
@@ -688,6 +702,7 @@ var hierarchy =
             [ "IronBars", "classpocketmine_1_1block_1_1_iron_bars.html", null ]
           ] ],
           [ "Trapdoor", "classpocketmine_1_1block_1_1_trapdoor.html", null ],
+          [ "TrappedChest", "classpocketmine_1_1block_1_1_trapped_chest.html", null ],
           [ "Vine", "classpocketmine_1_1block_1_1_vine.html", null ],
           [ "WoodSlab", "classpocketmine_1_1block_1_1_wood_slab.html", null ]
         ] ]
@@ -707,10 +722,6 @@ var hierarchy =
           [ "Minecart", "classpocketmine_1_1entity_1_1_minecart.html", null ]
         ] ]
       ] ],
-      [ "Entity", "classpocketmine_1_1entity_1_1_entity.html", null ],
-      [ "Entity", "classpocketmine_1_1entity_1_1_entity.html", null ],
-      [ "Level", "classpocketmine_1_1level_1_1_level.html", null ],
-      [ "Level", "classpocketmine_1_1level_1_1_level.html", null ],
       [ "Level", "classpocketmine_1_1level_1_1_level.html", null ]
     ] ],
     [ "MetadataStore", "classpocketmine_1_1metadata_1_1_metadata_store.html", [
@@ -774,11 +785,12 @@ var hierarchy =
     [ "Recipe", "interfacepocketmine_1_1inventory_1_1_recipe.html", [
       [ "FurnaceRecipe", "classpocketmine_1_1inventory_1_1_furnace_recipe.html", null ],
       [ "ShapedRecipe", "classpocketmine_1_1inventory_1_1_shaped_recipe.html", [
-        [ "BigShapedRecipe", "classpocketmine_1_1inventory_1_1_big_shaped_recipe.html", null ]
+        [ "BigShapedRecipe", "classpocketmine_1_1inventory_1_1_big_shaped_recipe.html", null ],
+        [ "StonecutterBigShapedRecipe", "classpocketmine_1_1inventory_1_1_stonecutter_big_shaped_recipe.html", null ],
+        [ "StonecutterShapedRecipe", "classpocketmine_1_1inventory_1_1_stonecutter_shaped_recipe.html", null ]
       ] ],
       [ "ShapelessRecipe", "classpocketmine_1_1inventory_1_1_shapeless_recipe.html", [
-        [ "BigShapelessRecipe", "classpocketmine_1_1inventory_1_1_big_shapeless_recipe.html", null ],
-        [ "StonecutterShapelessRecipe", "classpocketmine_1_1inventory_1_1_stonecutter_shapeless_recipe.html", null ]
+        [ "BigShapelessRecipe", "classpocketmine_1_1inventory_1_1_big_shapeless_recipe.html", null ]
       ] ]
     ] ],
     [ "RegionLoader", "classpocketmine_1_1level_1_1format_1_1mcregion_1_1_region_loader.html", [
@@ -800,8 +812,6 @@ var hierarchy =
     [ "ServerOperator", "interfacepocketmine_1_1permission_1_1_server_operator.html", [
       [ "IPlayer", "interfacepocketmine_1_1_i_player.html", [
         [ "OfflinePlayer", "classpocketmine_1_1_offline_player.html", null ],
-        [ "Player", "classpocketmine_1_1_player.html", null ],
-        [ "Player", "classpocketmine_1_1_player.html", null ],
         [ "Player", "classpocketmine_1_1_player.html", null ]
       ] ],
       [ "Permissible", "interfacepocketmine_1_1permission_1_1_permissible.html", [
@@ -809,8 +819,6 @@ var hierarchy =
           [ "ConsoleCommandSender", "classpocketmine_1_1command_1_1_console_command_sender.html", [
             [ "RemoteConsoleCommandSender", "classpocketmine_1_1command_1_1_remote_console_command_sender.html", null ]
           ] ],
-          [ "Player", "classpocketmine_1_1_player.html", null ],
-          [ "Player", "classpocketmine_1_1_player.html", null ],
           [ "Player", "classpocketmine_1_1_player.html", null ]
         ] ],
         [ "PermissibleBase", "classpocketmine_1_1permission_1_1_permissible_base.html", null ]
@@ -832,22 +840,12 @@ var hierarchy =
         [ "NamedTag", "classpocketmine_1_1nbt_1_1tag_1_1_named_tag.html", [
           [ "Byte", "classpocketmine_1_1nbt_1_1tag_1_1_byte.html", null ],
           [ "ByteArray", "classpocketmine_1_1nbt_1_1tag_1_1_byte_array.html", null ],
-          [ "ByteArray", "classpocketmine_1_1nbt_1_1tag_1_1_byte_array.html", null ],
-          [ "ByteArray", "classpocketmine_1_1nbt_1_1tag_1_1_byte_array.html", null ],
           [ "Compound", "classpocketmine_1_1nbt_1_1tag_1_1_compound.html", null ],
           [ "Double", "classpocketmine_1_1nbt_1_1tag_1_1_double.html", null ],
           [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
-          [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
-          [ "Enum", "classpocketmine_1_1nbt_1_1tag_1_1_enum.html", null ],
           [ "Float", "classpocketmine_1_1nbt_1_1tag_1_1_float.html", null ],
           [ "Int", "classpocketmine_1_1nbt_1_1tag_1_1_int.html", null ],
-          [ "Int", "classpocketmine_1_1nbt_1_1tag_1_1_int.html", null ],
-          [ "Int", "classpocketmine_1_1nbt_1_1tag_1_1_int.html", null ],
           [ "IntArray", "classpocketmine_1_1nbt_1_1tag_1_1_int_array.html", null ],
-          [ "IntArray", "classpocketmine_1_1nbt_1_1tag_1_1_int_array.html", null ],
-          [ "IntArray", "classpocketmine_1_1nbt_1_1tag_1_1_int_array.html", null ],
-          [ "Long", "classpocketmine_1_1nbt_1_1tag_1_1_long.html", null ],
-          [ "Long", "classpocketmine_1_1nbt_1_1tag_1_1_long.html", null ],
           [ "Long", "classpocketmine_1_1nbt_1_1tag_1_1_long.html", null ],
           [ "Short", "classpocketmine_1_1nbt_1_1tag_1_1_short.html", null ],
           [ "String", "classpocketmine_1_1nbt_1_1tag_1_1_string.html", null ]
@@ -856,121 +854,58 @@ var hierarchy =
       [ "BinaryStream", "classpocketmine_1_1utils_1_1_binary_stream.html", [
         [ "DataPacket", "classpocketmine_1_1network_1_1protocol_1_1_data_packet.html", [
           [ "AddEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html", null ],
-          [ "AddEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html", null ],
-          [ "AddEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_entity_packet.html", null ],
-          [ "AddItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html", null ],
-          [ "AddItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html", null ],
           [ "AddItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_item_entity_packet.html", null ],
           [ "AddPaintingPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html", null ],
-          [ "AddPaintingPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html", null ],
-          [ "AddPaintingPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_painting_packet.html", null ],
-          [ "AddPlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html", null ],
-          [ "AddPlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html", null ],
           [ "AddPlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_add_player_packet.html", null ],
           [ "AdventureSettingsPacket", "classpocketmine_1_1network_1_1protocol_1_1_adventure_settings_packet.html", null ],
           [ "AnimatePacket", "classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html", null ],
-          [ "AnimatePacket", "classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html", null ],
-          [ "AnimatePacket", "classpocketmine_1_1network_1_1protocol_1_1_animate_packet.html", null ],
           [ "BatchPacket", "classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html", null ],
-          [ "BatchPacket", "classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html", null ],
-          [ "BatchPacket", "classpocketmine_1_1network_1_1protocol_1_1_batch_packet.html", null ],
+          [ "BlockEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_block_entity_data_packet.html", null ],
+          [ "BlockEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_block_event_packet.html", null ],
           [ "ContainerClosePacket", "classpocketmine_1_1network_1_1protocol_1_1_container_close_packet.html", null ],
           [ "ContainerOpenPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_open_packet.html", null ],
-          [ "ContainerSetContentPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html", null ],
-          [ "ContainerSetContentPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html", null ],
           [ "ContainerSetContentPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_set_content_packet.html", null ],
           [ "ContainerSetDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_set_data_packet.html", null ],
           [ "ContainerSetSlotPacket", "classpocketmine_1_1network_1_1protocol_1_1_container_set_slot_packet.html", null ],
           [ "CraftingDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_crafting_data_packet.html", null ],
           [ "CraftingEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html", null ],
-          [ "CraftingEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html", null ],
-          [ "CraftingEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_crafting_event_packet.html", null ],
           [ "DisconnectPacket", "classpocketmine_1_1network_1_1protocol_1_1_disconnect_packet.html", null ],
           [ "DropItemPacket", "classpocketmine_1_1network_1_1protocol_1_1_drop_item_packet.html", null ],
-          [ "EntityEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html", null ],
-          [ "EntityEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html", null ],
           [ "EntityEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_entity_event_packet.html", null ],
           [ "ExplodePacket", "classpocketmine_1_1network_1_1protocol_1_1_explode_packet.html", null ],
           [ "FullChunkDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_full_chunk_data_packet.html", null ],
           [ "HurtArmorPacket", "classpocketmine_1_1network_1_1protocol_1_1_hurt_armor_packet.html", null ],
           [ "InteractPacket", "classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html", null ],
-          [ "InteractPacket", "classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html", null ],
-          [ "InteractPacket", "classpocketmine_1_1network_1_1protocol_1_1_interact_packet.html", null ],
           [ "LevelEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_level_event_packet.html", null ],
           [ "LoginPacket", "classpocketmine_1_1network_1_1protocol_1_1_login_packet.html", null ],
-          [ "LoginPacket", "classpocketmine_1_1network_1_1protocol_1_1_login_packet.html", null ],
-          [ "LoginPacket", "classpocketmine_1_1network_1_1protocol_1_1_login_packet.html", null ],
-          [ "MobArmorEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html", null ],
-          [ "MobArmorEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html", null ],
           [ "MobArmorEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_armor_equipment_packet.html", null ],
           [ "MobEffectPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html", null ],
-          [ "MobEffectPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html", null ],
-          [ "MobEffectPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html", null ],
-          [ "MobEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html", null ],
-          [ "MobEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html", null ],
           [ "MobEquipmentPacket", "classpocketmine_1_1network_1_1protocol_1_1_mob_equipment_packet.html", null ],
           [ "MoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html", null ],
-          [ "MoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html", null ],
-          [ "MoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_entity_packet.html", null ],
-          [ "MovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html", null ],
-          [ "MovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html", null ],
           [ "MovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_move_player_packet.html", null ],
           [ "PlayerActionPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html", null ],
-          [ "PlayerActionPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html", null ],
-          [ "PlayerActionPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_action_packet.html", null ],
-          [ "PlayerListPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html", null ],
-          [ "PlayerListPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html", null ],
           [ "PlayerListPacket", "classpocketmine_1_1network_1_1protocol_1_1_player_list_packet.html", null ],
           [ "PlayStatusPacket", "classpocketmine_1_1network_1_1protocol_1_1_play_status_packet.html", null ],
           [ "RemoveBlockPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html", null ],
-          [ "RemoveBlockPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html", null ],
-          [ "RemoveBlockPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_block_packet.html", null ],
           [ "RemoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html", null ],
-          [ "RemoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html", null ],
-          [ "RemoveEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_entity_packet.html", null ],
-          [ "RemovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html", null ],
-          [ "RemovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html", null ],
           [ "RemovePlayerPacket", "classpocketmine_1_1network_1_1protocol_1_1_remove_player_packet.html", null ],
           [ "RespawnPacket", "classpocketmine_1_1network_1_1protocol_1_1_respawn_packet.html", null ],
           [ "SetDifficultyPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html", null ],
-          [ "SetDifficultyPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html", null ],
-          [ "SetDifficultyPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_difficulty_packet.html", null ],
-          [ "SetEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html", null ],
-          [ "SetEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html", null ],
           [ "SetEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_data_packet.html", null ],
           [ "SetEntityLinkPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html", null ],
-          [ "SetEntityLinkPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html", null ],
-          [ "SetEntityLinkPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_link_packet.html", null ],
-          [ "SetEntityMotionPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html", null ],
-          [ "SetEntityMotionPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html", null ],
           [ "SetEntityMotionPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_entity_motion_packet.html", null ],
           [ "SetHealthPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html", null ],
-          [ "SetHealthPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html", null ],
-          [ "SetHealthPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_health_packet.html", null ],
+          [ "SetPlayerGameTypePacket", "classpocketmine_1_1network_1_1protocol_1_1_set_player_game_type_packet.html", null ],
           [ "SetSpawnPositionPacket", "classpocketmine_1_1network_1_1protocol_1_1_set_spawn_position_packet.html", null ],
           [ "SetTimePacket", "classpocketmine_1_1network_1_1protocol_1_1_set_time_packet.html", null ],
           [ "StartGamePacket", "classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html", null ],
-          [ "StartGamePacket", "classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html", null ],
-          [ "StartGamePacket", "classpocketmine_1_1network_1_1protocol_1_1_start_game_packet.html", null ],
-          [ "TakeItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html", null ],
-          [ "TakeItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html", null ],
           [ "TakeItemEntityPacket", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html", null ],
           [ "TextPacket", "classpocketmine_1_1network_1_1protocol_1_1_text_packet.html", null ],
-          [ "TileEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html", null ],
-          [ "TileEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html", null ],
-          [ "TileEntityDataPacket", "classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html", null ],
-          [ "TileEventPacket", "classpocketmine_1_1network_1_1protocol_1_1_tile_event_packet.html", null ],
-          [ "UpdateAttributesPacket", "classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html", null ],
-          [ "UpdateAttributesPacket", "classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html", null ],
           [ "UpdateAttributesPacket", "classpocketmine_1_1network_1_1protocol_1_1_update_attributes_packet.html", null ],
           [ "UpdateBlockPacket", "classpocketmine_1_1network_1_1protocol_1_1_update_block_packet.html", null ],
-          [ "UseItemPacket", "classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html", null ],
-          [ "UseItemPacket", "classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html", null ],
           [ "UseItemPacket", "classpocketmine_1_1network_1_1protocol_1_1_use_item_packet.html", null ]
         ] ]
-      ] ],
-      [ "BinaryStream", "classpocketmine_1_1utils_1_1_binary_stream.html", null ],
-      [ "BinaryStream", "classpocketmine_1_1utils_1_1_binary_stream.html", null ]
+      ] ]
     ] ],
     [ "TallGrass", "classpocketmine_1_1level_1_1generator_1_1object_1_1_tall_grass.html", null ],
     [ "Tameable", "interfacepocketmine_1_1entity_1_1_tameable.html", [
@@ -991,8 +926,6 @@ var hierarchy =
     [ "Thread", null, [
       [ "Thread", "classpocketmine_1_1_thread.html", [
         [ "CommandReader", "classpocketmine_1_1command_1_1_command_reader.html", null ],
-        [ "RCONInstance", "classpocketmine_1_1network_1_1rcon_1_1_r_c_o_n_instance.html", null ],
-        [ "RCONInstance", "classpocketmine_1_1network_1_1rcon_1_1_r_c_o_n_instance.html", null ],
         [ "RCONInstance", "classpocketmine_1_1network_1_1rcon_1_1_r_c_o_n_instance.html", null ],
         [ "ServerKiller", "classpocketmine_1_1utils_1_1_server_killer.html", null ]
       ] ]
@@ -1058,8 +991,6 @@ var hierarchy =
         [ "Block", "classpocketmine_1_1block_1_1_block.html", null ],
         [ "FakeBlockMenu", "classpocketmine_1_1inventory_1_1_fake_block_menu.html", null ],
         [ "Location", "classpocketmine_1_1level_1_1_location.html", [
-          [ "Entity", "classpocketmine_1_1entity_1_1_entity.html", null ],
-          [ "Entity", "classpocketmine_1_1entity_1_1_entity.html", null ],
           [ "Entity", "classpocketmine_1_1entity_1_1_entity.html", null ]
         ] ],
         [ "Tile", "classpocketmine_1_1tile_1_1_tile.html", [
@@ -1099,15 +1030,6 @@ var hierarchy =
       [ "Worker", "classpocketmine_1_1_worker.html", [
         [ "AsyncWorker", "classpocketmine_1_1scheduler_1_1_async_worker.html", null ]
       ] ]
-    ] ],
-    [ "wxApp", null, [
-      [ "PocketMineGui", "classpocketmine_1_1gui_1_1_pocket_mine_gui.html", null ]
-    ] ],
-    [ "wxDialog", null, [
-      [ "frmProperties", "classpocketmine_1_1gui_1_1frm_properties.html", null ]
-    ] ],
-    [ "wxFrame", null, [
-      [ "frmMain", "classpocketmine_1_1gui_1_1frm_main.html", null ]
     ] ],
     [ "EncapsulatedPacket", null, [
       [ "CachedEncapsulatedPacket", "classpocketmine_1_1network_1_1_cached_encapsulated_packet.html", null ]

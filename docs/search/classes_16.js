@@ -7,6 +7,7 @@ var searchData=
   ['waterlily',['WaterLily',['../classpocketmine_1_1block_1_1_water_lily.html',1,'pocketmine::block']]],
   ['waterparticle',['WaterParticle',['../classpocketmine_1_1level_1_1particle_1_1_water_particle.html',1,'pocketmine::level::particle']]],
   ['wheat',['Wheat',['../classpocketmine_1_1block_1_1_wheat.html',1,'pocketmine::block']]],
+  ['wheat',['Wheat',['../classpocketmine_1_1item_1_1_wheat.html',1,'pocketmine::item']]],
   ['wheatseeds',['WheatSeeds',['../classpocketmine_1_1item_1_1_wheat_seeds.html',1,'pocketmine::item']]],
   ['whitelistcommand',['WhitelistCommand',['../classpocketmine_1_1command_1_1defaults_1_1_whitelist_command.html',1,'pocketmine::command::defaults']]],
   ['wolf',['Wolf',['../classpocketmine_1_1entity_1_1_wolf.html',1,'pocketmine::entity']]],

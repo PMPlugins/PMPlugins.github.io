@@ -1,6 +1,6 @@
 var interfacepocketmine_1_1level_1_1format_1_1_chunk_section =
 [
-    [ "getBlock", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#ad834f15cab688a14aac34d28ed100680", null ],
+    [ "getBlock", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#ab762e370a56402dc7efff3a5614fec1f", null ],
     [ "getBlockData", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#ad2dde6a2b81263a1e3c2ea1884878113", null ],
     [ "getBlockDataColumn", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a6248c546ff2665e703532ebc588771c6", null ],
     [ "getBlockId", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a4c0e82d283f922baba28ccab752ffbf7", null ],
@@ -15,7 +15,7 @@ var interfacepocketmine_1_1level_1_1format_1_1_chunk_section =
     [ "getLightArray", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a947e9139d90ca68a364b81176e2155b2", null ],
     [ "getSkyLightArray", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a14a3aaef137cdfe13548d906e76ae5e4", null ],
     [ "getY", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#ac878fc1b93b7d5c1bd6d3142dd197f19", null ],
-    [ "setBlock", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a59c5cbc5de10438ff6a7fbe27f5ae257", null ],
+    [ "setBlock", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a61481091ac397870d60972a1ea44a003", null ],
     [ "setBlockData", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a5207b1c6335ada6da2eb607b410ed0b0", null ],
     [ "setBlockId", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a8159973589f5ee8f61f7a7f0611499f7", null ],
     [ "setBlockLight", "interfacepocketmine_1_1level_1_1format_1_1_chunk_section.html#a5c7a12b45ec0e6350f89f96399ea388e", null ],

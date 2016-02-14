@@ -7,5 +7,7 @@ var classpocketmine_1_1block_1_1_stone_wall =
     [ "getToolType", "classpocketmine_1_1block_1_1_stone_wall.html#a98cefe47e5822a30038bfad7cb1bb9e9", null ],
     [ "isSolid", "classpocketmine_1_1block_1_1_stone_wall.html#abb6155035306bcea8f840045c1d55b8d", null ],
     [ "recalculateBoundingBox", "classpocketmine_1_1block_1_1_stone_wall.html#a7b0e7230a2f57b3e370c516e2cccf551", null ],
-    [ "$id", "classpocketmine_1_1block_1_1_stone_wall.html#ae97941710d863131c700f069b109991e", null ]
+    [ "$id", "classpocketmine_1_1block_1_1_stone_wall.html#ae97941710d863131c700f069b109991e", null ],
+    [ "MOSSY_WALL", "classpocketmine_1_1block_1_1_stone_wall.html#aedfcb354c0856724610c1c163c0c8e2f", null ],
+    [ "NONE_MOSSY_WALL", "classpocketmine_1_1block_1_1_stone_wall.html#af59dcefaf8b181a45578b8b5624f1f85", null ]
 ];

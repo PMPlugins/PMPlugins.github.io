@@ -8,6 +8,7 @@ var searchData=
   ['lava',['Lava',['../classpocketmine_1_1block_1_1_lava.html',1,'pocketmine::block']]],
   ['lavadripparticle',['LavaDripParticle',['../classpocketmine_1_1level_1_1particle_1_1_lava_drip_particle.html',1,'pocketmine::level::particle']]],
   ['lavaparticle',['LavaParticle',['../classpocketmine_1_1level_1_1particle_1_1_lava_particle.html',1,'pocketmine::level::particle']]],
+  ['leather',['Leather',['../classpocketmine_1_1item_1_1_leather.html',1,'pocketmine::item']]],
   ['leatherboots',['LeatherBoots',['../classpocketmine_1_1item_1_1_leather_boots.html',1,'pocketmine::item']]],
   ['leathercap',['LeatherCap',['../classpocketmine_1_1item_1_1_leather_cap.html',1,'pocketmine::item']]],
   ['leatherpants',['LeatherPants',['../classpocketmine_1_1item_1_1_leather_pants.html',1,'pocketmine::item']]],

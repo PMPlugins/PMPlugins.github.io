@@ -1,10 +1,6 @@
 var classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet =
 [
     [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
-    [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
     [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
     [ "$eid", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#af6c2f93502d2687b5cfce165c10ed6ff", null ],
     [ "$target", "classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html#a97f00a3eb3f2c3198313323c8df7dcb2", null ],

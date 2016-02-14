@@ -1,6 +1,6 @@
 var classpocketmine_1_1inventory_1_1_simple_transaction_group =
 [
-    [ "__construct", "classpocketmine_1_1inventory_1_1_simple_transaction_group.html#a341a657915d45182c1e0848793d499af", null ],
+    [ "__construct", "classpocketmine_1_1inventory_1_1_simple_transaction_group.html#aa2857d98a081dfe4127a5490370120a8", null ],
     [ "addTransaction", "classpocketmine_1_1inventory_1_1_simple_transaction_group.html#ae4d848d034e4a3afc8fddb722eb1b574", null ],
     [ "canExecute", "classpocketmine_1_1inventory_1_1_simple_transaction_group.html#ac25d5fabe26d8c061686ba57e59e4458", null ],
     [ "execute", "classpocketmine_1_1inventory_1_1_simple_transaction_group.html#a1909f4b7f8129c7790cb75de2ffbe1e4", null ],

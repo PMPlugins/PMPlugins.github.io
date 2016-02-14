@@ -10,7 +10,7 @@ var classpocketmine_1_1block_1_1_vine =
     [ "isSolid", "classpocketmine_1_1block_1_1_vine.html#abb6155035306bcea8f840045c1d55b8d", null ],
     [ "onEntityCollide", "classpocketmine_1_1block_1_1_vine.html#aed2949ba1a8e59975f0e19d9df58521b", null ],
     [ "onUpdate", "classpocketmine_1_1block_1_1_vine.html#a63695f24af08ae3ed08e1ec6736cbc3b", null ],
-    [ "place", "classpocketmine_1_1block_1_1_vine.html#a2720dd7ac2455b0ae971c9d072043888", null ],
+    [ "place", "classpocketmine_1_1block_1_1_vine.html#a09c3c4f88d6ad5d78d1da9c85ee7a251", null ],
     [ "recalculateBoundingBox", "classpocketmine_1_1block_1_1_vine.html#a7b0e7230a2f57b3e370c516e2cccf551", null ],
     [ "$id", "classpocketmine_1_1block_1_1_vine.html#ae97941710d863131c700f069b109991e", null ]
 ];

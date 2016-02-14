@@ -9,6 +9,6 @@ var classpocketmine_1_1block_1_1_sign_post =
     [ "isSolid", "classpocketmine_1_1block_1_1_sign_post.html#abb6155035306bcea8f840045c1d55b8d", null ],
     [ "onBreak", "classpocketmine_1_1block_1_1_sign_post.html#aad86f8d5fb5a7713c702c0aa86a64b8a", null ],
     [ "onUpdate", "classpocketmine_1_1block_1_1_sign_post.html#a63695f24af08ae3ed08e1ec6736cbc3b", null ],
-    [ "place", "classpocketmine_1_1block_1_1_sign_post.html#a2720dd7ac2455b0ae971c9d072043888", null ],
+    [ "place", "classpocketmine_1_1block_1_1_sign_post.html#a09c3c4f88d6ad5d78d1da9c85ee7a251", null ],
     [ "$id", "classpocketmine_1_1block_1_1_sign_post.html#ae97941710d863131c700f069b109991e", null ]
 ];

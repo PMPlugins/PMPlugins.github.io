@@ -1,10 +1,6 @@
 var classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet =
 [
     [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "decode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#a9a65d563b072e1f019552eaa399e98f3", null ],
-    [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
-    [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
     [ "encode", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#ac9eb7dbc2495dbe58fd71b71b26ef8a6", null ],
     [ "$amplifier", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#a811c1f8dba2443ae0bef3416c1e90181", null ],
     [ "$duration", "classpocketmine_1_1network_1_1protocol_1_1_mob_effect_packet.html#acae43950182b63cd06434397298dad7d", null ],

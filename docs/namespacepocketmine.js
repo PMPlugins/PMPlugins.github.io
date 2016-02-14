@@ -4,11 +4,6 @@ var namespacepocketmine =
     [ "command", "namespacepocketmine_1_1command.html", "namespacepocketmine_1_1command" ],
     [ "entity", "namespacepocketmine_1_1entity.html", "namespacepocketmine_1_1entity" ],
     [ "event", "namespacepocketmine_1_1event.html", "namespacepocketmine_1_1event" ],
-    [ "gui", null, [
-      [ "frmMain", "classpocketmine_1_1gui_1_1frm_main.html", "classpocketmine_1_1gui_1_1frm_main" ],
-      [ "frmProperties", "classpocketmine_1_1gui_1_1frm_properties.html", "classpocketmine_1_1gui_1_1frm_properties" ],
-      [ "PocketMineGui", "classpocketmine_1_1gui_1_1_pocket_mine_gui.html", "classpocketmine_1_1gui_1_1_pocket_mine_gui" ]
-    ] ],
     [ "inventory", "namespacepocketmine_1_1inventory.html", "namespacepocketmine_1_1inventory" ],
     [ "item", "namespacepocketmine_1_1item.html", "namespacepocketmine_1_1item" ],
     [ "lang", null, [

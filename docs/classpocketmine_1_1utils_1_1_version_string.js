@@ -2,8 +2,8 @@ var classpocketmine_1_1utils_1_1_version_string =
 [
     [ "__construct", "classpocketmine_1_1utils_1_1_version_string.html#a0e65c5274b3b60194da0f16e608b3a23", null ],
     [ "__toString", "classpocketmine_1_1utils_1_1_version_string.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
-    [ "compare", "classpocketmine_1_1utils_1_1_version_string.html#a076e401b3e3bc473565ac5e7a30d5d10", null ],
-    [ "get", "classpocketmine_1_1utils_1_1_version_string.html#a417adc234db27d2f67586d6ca3230eb5", null ],
+    [ "compare", "classpocketmine_1_1utils_1_1_version_string.html#aa474e60eb31ba71234e9f4d4cfe1faab", null ],
+    [ "get", "classpocketmine_1_1utils_1_1_version_string.html#a5cef44c553bf6f5ae5b54ffcbe354e65", null ],
     [ "getBuild", "classpocketmine_1_1utils_1_1_version_string.html#a59e449ef0b0d191eead528ec959b3c74", null ],
     [ "getGeneration", "classpocketmine_1_1utils_1_1_version_string.html#a1a8408eaef3932a1119655513cda369f", null ],
     [ "getMajor", "classpocketmine_1_1utils_1_1_version_string.html#a4576bbe299f7c5b6f4c27fe41f920261", null ],

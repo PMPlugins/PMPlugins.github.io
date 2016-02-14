@@ -1,6 +1,6 @@
 var classpocketmine_1_1utils_1_1_main_logger =
 [
-    [ "__construct", "classpocketmine_1_1utils_1_1_main_logger.html#a84b532810b6f6141aa5d5c0ca59bfa5e", null ],
+    [ "__construct", "classpocketmine_1_1utils_1_1_main_logger.html#a0ae1a3f560eac674b1dd9652850179e0", null ],
     [ "alert", "classpocketmine_1_1utils_1_1_main_logger.html#af13c49745ed34d011f658cfdc228d918", null ],
     [ "critical", "classpocketmine_1_1utils_1_1_main_logger.html#a8200e75c33c74e5b048715f690613ff1", null ],
     [ "debug", "classpocketmine_1_1utils_1_1_main_logger.html#a568d49c8c4f47314610017c56d159482", null ],
@@ -8,7 +8,7 @@ var classpocketmine_1_1utils_1_1_main_logger =
     [ "error", "classpocketmine_1_1utils_1_1_main_logger.html#aaa193b0c1c2b93841472b26e2e281751", null ],
     [ "info", "classpocketmine_1_1utils_1_1_main_logger.html#adfa8ba1d05a27351e0d97169d98bb9cf", null ],
     [ "log", "classpocketmine_1_1utils_1_1_main_logger.html#a78c195f9e73fd37b93310edad965c20a", null ],
-    [ "logException", "classpocketmine_1_1utils_1_1_main_logger.html#a978df733f35a6db8dc5330670832ea5c", null ],
+    [ "logException", "classpocketmine_1_1utils_1_1_main_logger.html#a1d63daf998172f1db14d66ac40bc47fd", null ],
     [ "notice", "classpocketmine_1_1utils_1_1_main_logger.html#a4b6e453a50f7f0811f169689512c468f", null ],
     [ "run", "classpocketmine_1_1utils_1_1_main_logger.html#afb0fafe7e02a3ae1993c01c19fad2bae", null ],
     [ "send", "classpocketmine_1_1utils_1_1_main_logger.html#a70f051898e9d7f179cc86a298220db91", null ],

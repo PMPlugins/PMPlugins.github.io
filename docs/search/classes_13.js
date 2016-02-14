@@ -3,9 +3,9 @@ var searchData=
   ['tag',['Tag',['../classpocketmine_1_1nbt_1_1tag_1_1_tag.html',1,'pocketmine::nbt::tag']]],
   ['taigabiome',['TaigaBiome',['../classpocketmine_1_1level_1_1generator_1_1normal_1_1biome_1_1_taiga_biome.html',1,'pocketmine::level::generator::normal::biome']]],
   ['takeitementitypacket',['TakeItemEntityPacket',['../classpocketmine_1_1network_1_1protocol_1_1_take_item_entity_packet.html',1,'pocketmine::network::protocol']]],
-  ['tallgrass',['TallGrass',['../classpocketmine_1_1level_1_1generator_1_1object_1_1_tall_grass.html',1,'pocketmine::level::generator::object']]],
   ['tallgrass',['TallGrass',['../classpocketmine_1_1level_1_1generator_1_1populator_1_1_tall_grass.html',1,'pocketmine::level::generator::populator']]],
   ['tallgrass',['TallGrass',['../classpocketmine_1_1block_1_1_tall_grass.html',1,'pocketmine::block']]],
+  ['tallgrass',['TallGrass',['../classpocketmine_1_1level_1_1generator_1_1object_1_1_tall_grass.html',1,'pocketmine::level::generator::object']]],
   ['tameable',['Tameable',['../interfacepocketmine_1_1entity_1_1_tameable.html',1,'pocketmine::entity']]],
   ['task',['Task',['../classpocketmine_1_1scheduler_1_1_task.html',1,'pocketmine::scheduler']]],
   ['taskhandler',['TaskHandler',['../classpocketmine_1_1scheduler_1_1_task_handler.html',1,'pocketmine::scheduler']]],
@@ -21,8 +21,6 @@ var searchData=
   ['thread',['Thread',['../classpocketmine_1_1_thread.html',1,'pocketmine']]],
   ['threadmanager',['ThreadManager',['../classpocketmine_1_1_thread_manager.html',1,'pocketmine']]],
   ['tile',['Tile',['../classpocketmine_1_1tile_1_1_tile.html',1,'pocketmine::tile']]],
-  ['tileentitydatapacket',['TileEntityDataPacket',['../classpocketmine_1_1network_1_1protocol_1_1_tile_entity_data_packet.html',1,'pocketmine::network::protocol']]],
-  ['tileeventpacket',['TileEventPacket',['../classpocketmine_1_1network_1_1protocol_1_1_tile_event_packet.html',1,'pocketmine::network::protocol']]],
   ['timecommand',['TimeCommand',['../classpocketmine_1_1command_1_1defaults_1_1_time_command.html',1,'pocketmine::command::defaults']]],
   ['timings',['Timings',['../classpocketmine_1_1event_1_1_timings.html',1,'pocketmine::event']]],
   ['timingscommand',['TimingsCommand',['../classpocketmine_1_1command_1_1defaults_1_1_timings_command.html',1,'pocketmine::command::defaults']]],
@@ -35,6 +33,7 @@ var searchData=
   ['translationcontainer',['TranslationContainer',['../classpocketmine_1_1event_1_1_translation_container.html',1,'pocketmine::event']]],
   ['transparent',['Transparent',['../classpocketmine_1_1block_1_1_transparent.html',1,'pocketmine::block']]],
   ['trapdoor',['Trapdoor',['../classpocketmine_1_1block_1_1_trapdoor.html',1,'pocketmine::block']]],
-  ['tree',['Tree',['../classpocketmine_1_1level_1_1generator_1_1object_1_1_tree.html',1,'pocketmine::level::generator::object']]],
-  ['tree',['Tree',['../classpocketmine_1_1level_1_1generator_1_1populator_1_1_tree.html',1,'pocketmine::level::generator::populator']]]
+  ['trappedchest',['TrappedChest',['../classpocketmine_1_1block_1_1_trapped_chest.html',1,'pocketmine::block']]],
+  ['tree',['Tree',['../classpocketmine_1_1level_1_1generator_1_1populator_1_1_tree.html',1,'pocketmine::level::generator::populator']]],
+  ['tree',['Tree',['../classpocketmine_1_1level_1_1generator_1_1object_1_1_tree.html',1,'pocketmine::level::generator::object']]]
 ];

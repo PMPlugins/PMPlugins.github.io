@@ -12,7 +12,7 @@ var classpocketmine_1_1scheduler_1_1_async_task =
     [ "onRun", "classpocketmine_1_1scheduler_1_1_async_task.html#aa2eb34e3894c9da534c026d54443ae86", null ],
     [ "run", "classpocketmine_1_1scheduler_1_1_async_task.html#afb0fafe7e02a3ae1993c01c19fad2bae", null ],
     [ "saveToThreadStore", "classpocketmine_1_1scheduler_1_1_async_task.html#a2430d600b6fc165acb9e7ad02014ea9c", null ],
-    [ "setResult", "classpocketmine_1_1scheduler_1_1_async_task.html#a57a054b7155c2ed6dacdef4fabcccf3f", null ],
+    [ "setResult", "classpocketmine_1_1scheduler_1_1_async_task.html#a7533ea8b24dc58ece894a709ee5b4800", null ],
     [ "setTaskId", "classpocketmine_1_1scheduler_1_1_async_task.html#a695b71250a876b6f510ebb607a2f18fb", null ],
     [ "$worker", "classpocketmine_1_1scheduler_1_1_async_task.html#acc96b7a4d76c3c869cb3c1bca5acb4d0", null ]
 ];

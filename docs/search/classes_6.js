@@ -17,14 +17,17 @@ var searchData=
   ['glowingobsidian',['GlowingObsidian',['../classpocketmine_1_1block_1_1_glowing_obsidian.html',1,'pocketmine::block']]],
   ['glowingredstoneore',['GlowingRedstoneOre',['../classpocketmine_1_1block_1_1_glowing_redstone_ore.html',1,'pocketmine::block']]],
   ['glowstone',['Glowstone',['../classpocketmine_1_1block_1_1_glowstone.html',1,'pocketmine::block']]],
+  ['glowstonedust',['GlowstoneDust',['../classpocketmine_1_1item_1_1_glowstone_dust.html',1,'pocketmine::item']]],
   ['gold',['Gold',['../classpocketmine_1_1block_1_1_gold.html',1,'pocketmine::block']]],
   ['goldaxe',['GoldAxe',['../classpocketmine_1_1item_1_1_gold_axe.html',1,'pocketmine::item']]],
   ['goldboots',['GoldBoots',['../classpocketmine_1_1item_1_1_gold_boots.html',1,'pocketmine::item']]],
   ['goldchestplate',['GoldChestplate',['../classpocketmine_1_1item_1_1_gold_chestplate.html',1,'pocketmine::item']]],
+  ['goldenapple',['GoldenApple',['../classpocketmine_1_1item_1_1_golden_apple.html',1,'pocketmine::item']]],
   ['goldhelmet',['GoldHelmet',['../classpocketmine_1_1item_1_1_gold_helmet.html',1,'pocketmine::item']]],
   ['goldhoe',['GoldHoe',['../classpocketmine_1_1item_1_1_gold_hoe.html',1,'pocketmine::item']]],
   ['goldingot',['GoldIngot',['../classpocketmine_1_1item_1_1_gold_ingot.html',1,'pocketmine::item']]],
   ['goldleggings',['GoldLeggings',['../classpocketmine_1_1item_1_1_gold_leggings.html',1,'pocketmine::item']]],
+  ['goldnugget',['GoldNugget',['../classpocketmine_1_1item_1_1_gold_nugget.html',1,'pocketmine::item']]],
   ['goldore',['GoldOre',['../classpocketmine_1_1block_1_1_gold_ore.html',1,'pocketmine::block']]],
   ['goldpickaxe',['GoldPickaxe',['../classpocketmine_1_1item_1_1_gold_pickaxe.html',1,'pocketmine::item']]],
   ['goldshovel',['GoldShovel',['../classpocketmine_1_1item_1_1_gold_shovel.html',1,'pocketmine::item']]],
@@ -33,5 +36,6 @@ var searchData=
   ['grasspath',['GrassPath',['../classpocketmine_1_1block_1_1_grass_path.html',1,'pocketmine::block']]],
   ['grassybiome',['GrassyBiome',['../classpocketmine_1_1level_1_1generator_1_1normal_1_1biome_1_1_grassy_biome.html',1,'pocketmine::level::generator::normal::biome']]],
   ['gravel',['Gravel',['../classpocketmine_1_1block_1_1_gravel.html',1,'pocketmine::block']]],
-  ['groundcover',['GroundCover',['../classpocketmine_1_1level_1_1generator_1_1populator_1_1_ground_cover.html',1,'pocketmine::level::generator::populator']]]
+  ['groundcover',['GroundCover',['../classpocketmine_1_1level_1_1generator_1_1populator_1_1_ground_cover.html',1,'pocketmine::level::generator::populator']]],
+  ['gunpowder',['Gunpowder',['../classpocketmine_1_1item_1_1_gunpowder.html',1,'pocketmine::item']]]
 ];

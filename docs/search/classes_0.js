@@ -21,6 +21,7 @@ var searchData=
   ['anvilusesound',['AnvilUseSound',['../classpocketmine_1_1level_1_1sound_1_1_anvil_use_sound.html',1,'pocketmine::level::sound']]],
   ['apple',['Apple',['../classpocketmine_1_1item_1_1_apple.html',1,'pocketmine::item']]],
   ['armor',['Armor',['../classpocketmine_1_1item_1_1_armor.html',1,'pocketmine::item']]],
+  ['arrow',['Arrow',['../classpocketmine_1_1item_1_1_arrow.html',1,'pocketmine::item']]],
   ['arrow',['Arrow',['../classpocketmine_1_1entity_1_1_arrow.html',1,'pocketmine::entity']]],
   ['asyncpool',['AsyncPool',['../classpocketmine_1_1scheduler_1_1_async_pool.html',1,'pocketmine::scheduler']]],
   ['asynctask',['AsyncTask',['../classpocketmine_1_1scheduler_1_1_async_task.html',1,'pocketmine::scheduler']]],

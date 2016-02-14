@@ -38,5 +38,6 @@ var searchData=
   ['doublewoodslab',['DoubleWoodSlab',['../classpocketmine_1_1block_1_1_double_wood_slab.html',1,'pocketmine::block']]],
   ['dropitempacket',['DropItemPacket',['../classpocketmine_1_1network_1_1protocol_1_1_drop_item_packet.html',1,'pocketmine::network::protocol']]],
   ['dumpmemorycommand',['DumpMemoryCommand',['../classpocketmine_1_1command_1_1defaults_1_1_dump_memory_command.html',1,'pocketmine::command::defaults']]],
-  ['dustparticle',['DustParticle',['../classpocketmine_1_1level_1_1particle_1_1_dust_particle.html',1,'pocketmine::level::particle']]]
+  ['dustparticle',['DustParticle',['../classpocketmine_1_1level_1_1particle_1_1_dust_particle.html',1,'pocketmine::level::particle']]],
+  ['dye',['Dye',['../classpocketmine_1_1item_1_1_dye.html',1,'pocketmine::item']]]
 ];

@@ -1,6 +1,6 @@
 var classpocketmine_1_1permission_1_1_permission =
 [
-    [ "__construct", "classpocketmine_1_1permission_1_1_permission.html#a5f3dac8f8eea296b55c053686232fec2", null ],
+    [ "__construct", "classpocketmine_1_1permission_1_1_permission.html#a33eb1833a772a461423c63c031b7fa3a", null ],
     [ "addParent", "classpocketmine_1_1permission_1_1_permission.html#a62d21b76de2e7eacc86733b148c35ecf", null ],
     [ "getChildren", "classpocketmine_1_1permission_1_1_permission.html#ac5d4bf1c499040ca5f4cc7bdf171f828", null ],
     [ "getDefault", "classpocketmine_1_1permission_1_1_permission.html#adc30a2a4d3e48cb6aee21562afbc4022", null ],
